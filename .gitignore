@@ -1,0 +1,30 @@
+# Machine Learning Data & Weights
+**/data/
+**/datasets/
+**/checkpoints/
+**/*.pth
+**/*.npy
+**/*.ply
+
+# Windows System Files
+Thumbs.db
+desktop.ini
+
+# Python / Environment
+**/__pycache__/
+venv/
+.env
+.venv/
+
+# C++ / CUDA / Build artifacts
+**/build/
+**/dist/
+**/*.so
+**/*.o
+
+# Specifically ignore the DGCNN data and weights
+**/DGCNN/*/data/
+**/DGCNN/*/checkpoints/
+**/*.h5
+**/*.pth
+**/*.npy

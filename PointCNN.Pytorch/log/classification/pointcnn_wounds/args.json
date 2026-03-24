@@ -1,0 +1,14 @@
+{
+    "use_cpu": false,
+    "gpu": "0",
+    "batch_size": 8,
+    "epoch": 50,
+    "learning_rate": 0.001,
+    "num_point": 1024,
+    "k": 16,
+    "optimizer": "Adam",
+    "log_dir": "pointcnn_wounds",
+    "decay_rate": 0.0001,
+    "json_path": "D:/MD_Implementations/PointNet++/dict_wounds.json",
+    "data_dir": "D:/MD_Implementations/PointNet++/sorted_data"
+}

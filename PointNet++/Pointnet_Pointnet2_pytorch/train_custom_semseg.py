@@ -18,6 +18,7 @@ sys.path.append(os.path.join(ROOT_DIR, 'models'))
 
 # Import your custom segmentation dataloader
 from data_utils.Wound_Data_Loader_RHL import WoundSegDataset
+from shape_prior_loss import ClinicalShapePriorLoss
 
 classes = ['healthy_skin', 'wound_bed']
 class2label = {cls: i for i, cls in enumerate(classes)}
@@ -103,6 +104,8 @@ def main(args):
     MODEL = importlib.import_module(args.model)
     classifier = MODEL.get_model(NUM_CLASSES).cuda()
     criterion = nn.CrossEntropyLoss().cuda() # Using standard CE Loss for Segmentation
+    shape_prior_criterion = ClinicalShapePriorLoss(target_aspect_ratio_max=3.0, target_depth_variance_max=0.1).cuda()
+    alpha = 0.1  # Weight of the shape prior (tune this between 0.01 and 0.5)
     classifier.apply(inplace_relu)
 
     start_epoch = 0
@@ -151,16 +154,25 @@ def main(args):
             optimizer.zero_grad()
 
             points, target = points.float().cuda(), target.long().cuda()
-            points = points.transpose(2, 1) # [B, 3, N]
+            points = points.transpose(2, 1)  # [B, 3, N]
 
             # Forward pass through GNN
-            seg_pred = classifier(points) # Returns [B, 2, N]
-            
+            seg_pred = classifier(points)  # Returns [B, 2, N]
+
+            # --- CALCULATE LOSSES ---
+
+            # 1. Standard Segmentation Loss (CrossEntropy)
             # Reshape for CrossEntropyLoss [B*N, 2] vs [B*N]
-            seg_pred = seg_pred.transpose(2, 1).contiguous().view(-1, NUM_CLASSES)
-            target = target.view(-1)
-            
-            loss = criterion(seg_pred, target)
+            seg_pred_reshaped = seg_pred.transpose(2, 1).contiguous().view(-1, NUM_CLASSES)
+            target_flat = target.view(-1)
+            loss_ce = criterion(seg_pred_reshaped, target_flat)
+
+            # 2. Clinical Shape Prior Loss
+            # Pass the UNRESHAPED logits [B, 2, N] and the XYZ points [B, 3, N]
+            loss_prior = shape_prior_criterion(seg_pred, points[:, :3, :])
+
+            # 3. Total Loss
+            loss = loss_ce + (alpha * loss_prior)
             loss.backward()
             optimizer.step()
 

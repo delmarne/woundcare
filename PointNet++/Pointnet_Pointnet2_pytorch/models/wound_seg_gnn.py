@@ -90,3 +90,6 @@ class WoundSegmentationGNN(nn.Module):
         logits = self.classifier(global_feat)  # [B, 2, N]
 
         return logits
+
+def get_model(num_classes=2):
+    return WoundSegmentationGNN(num_classes=num_classes)

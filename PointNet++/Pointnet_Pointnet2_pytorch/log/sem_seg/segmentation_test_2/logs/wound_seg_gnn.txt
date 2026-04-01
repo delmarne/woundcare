@@ -1,0 +1,2406 @@
+2026-04-01 01:30:34,952 - Model - INFO - PARAMETER ...
+2026-04-01 01:30:34,952 - Model - INFO - Namespace(model='wound_seg_gnn', batch_size=8, epoch=200, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='segmentation_test_2', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, json_path='../dict_wounds.json', data_dir='../sorted_data')
+2026-04-01 01:30:34,961 - Model - INFO - The number of training data is: 1809
+2026-04-01 01:30:34,961 - Model - INFO - The number of test data is: 53
+2026-04-01 01:30:35,840 - Model - INFO - **** Epoch 1 (1/200) ****
+2026-04-01 01:31:19,401 - Model - INFO - Training mean loss: 0.474733
+2026-04-01 01:31:19,401 - Model - INFO - Training accuracy: 0.644058
+2026-04-01 01:31:19,401 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:31:21,312 - Model - INFO - eval mean loss: 0.496624
+2026-04-01 01:31:21,312 - Model - INFO - eval point accuracy: 0.753779
+2026-04-01 01:31:21,312 - Model - INFO - eval point avg class IoU: 0.521710
+2026-04-01 01:31:21,312 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.721 
+class wound_bed      IoU: 0.322 
+
+2026-04-01 01:31:21,317 - Model - INFO - Saving best model....
+2026-04-01 01:31:21,317 - Model - INFO - Best mIoU: 0.521710
+2026-04-01 01:31:21,317 - Model - INFO - **** Epoch 2 (2/200) ****
+2026-04-01 01:32:04,920 - Model - INFO - Training mean loss: 0.424100
+2026-04-01 01:32:04,921 - Model - INFO - Training accuracy: 0.673505
+2026-04-01 01:32:04,921 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:32:06,836 - Model - INFO - eval mean loss: 0.464879
+2026-04-01 01:32:06,837 - Model - INFO - eval point accuracy: 0.714996
+2026-04-01 01:32:06,837 - Model - INFO - eval point avg class IoU: 0.490326
+2026-04-01 01:32:06,837 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.674 
+class wound_bed      IoU: 0.307 
+
+2026-04-01 01:32:06,837 - Model - INFO - Best mIoU: 0.521710
+2026-04-01 01:32:06,837 - Model - INFO - **** Epoch 3 (3/200) ****
+2026-04-01 01:32:50,453 - Model - INFO - Training mean loss: 0.418409
+2026-04-01 01:32:50,454 - Model - INFO - Training accuracy: 0.673226
+2026-04-01 01:32:50,454 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:32:52,406 - Model - INFO - eval mean loss: 0.449905
+2026-04-01 01:32:52,406 - Model - INFO - eval point accuracy: 0.700521
+2026-04-01 01:32:52,406 - Model - INFO - eval point avg class IoU: 0.479378
+2026-04-01 01:32:52,406 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.656 
+class wound_bed      IoU: 0.303 
+
+2026-04-01 01:32:52,406 - Model - INFO - Best mIoU: 0.521710
+2026-04-01 01:32:52,406 - Model - INFO - **** Epoch 4 (4/200) ****
+2026-04-01 01:33:36,217 - Model - INFO - Training mean loss: 0.418381
+2026-04-01 01:33:36,217 - Model - INFO - Training accuracy: 0.671155
+2026-04-01 01:33:36,217 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:33:38,153 - Model - INFO - eval mean loss: 0.554017
+2026-04-01 01:33:38,153 - Model - INFO - eval point accuracy: 0.784653
+2026-04-01 01:33:38,153 - Model - INFO - eval point avg class IoU: 0.548615
+2026-04-01 01:33:38,153 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.758 
+class wound_bed      IoU: 0.339 
+
+2026-04-01 01:33:38,156 - Model - INFO - Saving best model....
+2026-04-01 01:33:38,156 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:33:38,156 - Model - INFO - **** Epoch 5 (5/200) ****
+2026-04-01 01:34:21,872 - Model - INFO - Training mean loss: 0.415378
+2026-04-01 01:34:21,872 - Model - INFO - Training accuracy: 0.672990
+2026-04-01 01:34:21,872 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:34:23,810 - Model - INFO - eval mean loss: 0.459280
+2026-04-01 01:34:23,810 - Model - INFO - eval point accuracy: 0.705948
+2026-04-01 01:34:23,810 - Model - INFO - eval point avg class IoU: 0.483058
+2026-04-01 01:34:23,810 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.663 
+class wound_bed      IoU: 0.303 
+
+2026-04-01 01:34:23,810 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:34:23,810 - Model - INFO - **** Epoch 6 (6/200) ****
+2026-04-01 01:35:07,470 - Model - INFO - Training mean loss: 0.415025
+2026-04-01 01:35:07,470 - Model - INFO - Training accuracy: 0.673595
+2026-04-01 01:35:07,470 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:35:09,398 - Model - INFO - eval mean loss: 0.491673
+2026-04-01 01:35:09,398 - Model - INFO - eval point accuracy: 0.749827
+2026-04-01 01:35:09,398 - Model - INFO - eval point avg class IoU: 0.520301
+2026-04-01 01:35:09,398 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.716 
+class wound_bed      IoU: 0.325 
+
+2026-04-01 01:35:09,398 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:35:09,398 - Model - INFO - **** Epoch 7 (7/200) ****
+2026-04-01 01:35:52,987 - Model - INFO - Training mean loss: 0.413664
+2026-04-01 01:35:52,987 - Model - INFO - Training accuracy: 0.675860
+2026-04-01 01:35:52,988 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:35:54,909 - Model - INFO - eval mean loss: 0.494728
+2026-04-01 01:35:54,909 - Model - INFO - eval point accuracy: 0.749542
+2026-04-01 01:35:54,909 - Model - INFO - eval point avg class IoU: 0.518474
+2026-04-01 01:35:54,909 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.716 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 01:35:54,909 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:35:54,909 - Model - INFO - **** Epoch 8 (8/200) ****
+2026-04-01 01:36:38,503 - Model - INFO - Training mean loss: 0.412932
+2026-04-01 01:36:38,503 - Model - INFO - Training accuracy: 0.677308
+2026-04-01 01:36:38,503 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:36:40,436 - Model - INFO - eval mean loss: 0.467062
+2026-04-01 01:36:40,436 - Model - INFO - eval point accuracy: 0.731572
+2026-04-01 01:36:40,436 - Model - INFO - eval point avg class IoU: 0.505219
+2026-04-01 01:36:40,436 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.693 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 01:36:40,436 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:36:40,436 - Model - INFO - **** Epoch 9 (9/200) ****
+2026-04-01 01:37:24,130 - Model - INFO - Training mean loss: 0.410906
+2026-04-01 01:37:24,130 - Model - INFO - Training accuracy: 0.678926
+2026-04-01 01:37:24,130 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:37:26,067 - Model - INFO - eval mean loss: 0.460531
+2026-04-01 01:37:26,067 - Model - INFO - eval point accuracy: 0.557683
+2026-04-01 01:37:26,068 - Model - INFO - eval point avg class IoU: 0.364458
+2026-04-01 01:37:26,068 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.483 
+class wound_bed      IoU: 0.246 
+
+2026-04-01 01:37:26,068 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:37:26,068 - Model - INFO - **** Epoch 10 (10/200) ****
+2026-04-01 01:38:09,696 - Model - INFO - Training mean loss: 0.411450
+2026-04-01 01:38:09,696 - Model - INFO - Training accuracy: 0.679958
+2026-04-01 01:38:09,697 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:38:11,620 - Model - INFO - eval mean loss: 0.461117
+2026-04-01 01:38:11,620 - Model - INFO - eval point accuracy: 0.720795
+2026-04-01 01:38:11,620 - Model - INFO - eval point avg class IoU: 0.496143
+2026-04-01 01:38:11,620 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.680 
+class wound_bed      IoU: 0.312 
+
+2026-04-01 01:38:11,620 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:38:11,620 - Model - INFO - **** Epoch 11 (11/200) ****
+2026-04-01 01:38:55,263 - Model - INFO - Training mean loss: 0.409353
+2026-04-01 01:38:55,263 - Model - INFO - Training accuracy: 0.682105
+2026-04-01 01:38:55,263 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:38:57,157 - Model - INFO - eval mean loss: 0.448887
+2026-04-01 01:38:57,157 - Model - INFO - eval point accuracy: 0.706395
+2026-04-01 01:38:57,157 - Model - INFO - eval point avg class IoU: 0.484748
+2026-04-01 01:38:57,157 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.662 
+class wound_bed      IoU: 0.307 
+
+2026-04-01 01:38:57,157 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:38:57,157 - Model - INFO - **** Epoch 12 (12/200) ****
+2026-04-01 01:39:40,906 - Model - INFO - Training mean loss: 0.409416
+2026-04-01 01:39:40,906 - Model - INFO - Training accuracy: 0.683327
+2026-04-01 01:39:40,906 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:39:42,832 - Model - INFO - eval mean loss: 0.436497
+2026-04-01 01:39:42,832 - Model - INFO - eval point accuracy: 0.681285
+2026-04-01 01:39:42,832 - Model - INFO - eval point avg class IoU: 0.464056
+2026-04-01 01:39:42,832 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.632 
+class wound_bed      IoU: 0.296 
+
+2026-04-01 01:39:42,832 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:39:42,832 - Model - INFO - **** Epoch 13 (13/200) ****
+2026-04-01 01:40:26,416 - Model - INFO - Training mean loss: 0.409193
+2026-04-01 01:40:26,416 - Model - INFO - Training accuracy: 0.683031
+2026-04-01 01:40:26,417 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:40:28,354 - Model - INFO - eval mean loss: 0.466794
+2026-04-01 01:40:28,355 - Model - INFO - eval point accuracy: 0.741547
+2026-04-01 01:40:28,355 - Model - INFO - eval point avg class IoU: 0.513409
+2026-04-01 01:40:28,355 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.706 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 01:40:28,355 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:40:28,355 - Model - INFO - **** Epoch 14 (14/200) ****
+2026-04-01 01:41:12,086 - Model - INFO - Training mean loss: 0.408452
+2026-04-01 01:41:12,086 - Model - INFO - Training accuracy: 0.683658
+2026-04-01 01:41:12,086 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:41:14,018 - Model - INFO - eval mean loss: 0.450210
+2026-04-01 01:41:14,018 - Model - INFO - eval point accuracy: 0.575953
+2026-04-01 01:41:14,018 - Model - INFO - eval point avg class IoU: 0.378598
+2026-04-01 01:41:14,018 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.505 
+class wound_bed      IoU: 0.252 
+
+2026-04-01 01:41:14,018 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:41:14,018 - Model - INFO - **** Epoch 15 (15/200) ****
+2026-04-01 01:41:57,622 - Model - INFO - Training mean loss: 0.408280
+2026-04-01 01:41:57,622 - Model - INFO - Training accuracy: 0.683189
+2026-04-01 01:41:57,622 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:41:59,554 - Model - INFO - eval mean loss: 0.454887
+2026-04-01 01:41:59,555 - Model - INFO - eval point accuracy: 0.725525
+2026-04-01 01:41:59,555 - Model - INFO - eval point avg class IoU: 0.500807
+2026-04-01 01:41:59,555 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.686 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 01:41:59,555 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:41:59,555 - Model - INFO - **** Epoch 16 (16/200) ****
+2026-04-01 01:42:43,073 - Model - INFO - Training mean loss: 0.407014
+2026-04-01 01:42:43,073 - Model - INFO - Training accuracy: 0.684387
+2026-04-01 01:42:43,073 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:42:45,007 - Model - INFO - eval mean loss: 0.452108
+2026-04-01 01:42:45,007 - Model - INFO - eval point accuracy: 0.667542
+2026-04-01 01:42:45,007 - Model - INFO - eval point avg class IoU: 0.451097
+2026-04-01 01:42:45,007 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.617 
+class wound_bed      IoU: 0.286 
+
+2026-04-01 01:42:45,007 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:42:45,007 - Model - INFO - **** Epoch 17 (17/200) ****
+2026-04-01 01:43:28,555 - Model - INFO - Training mean loss: 0.408740
+2026-04-01 01:43:28,555 - Model - INFO - Training accuracy: 0.685345
+2026-04-01 01:43:28,555 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:43:30,477 - Model - INFO - eval mean loss: 0.456201
+2026-04-01 01:43:30,477 - Model - INFO - eval point accuracy: 0.578115
+2026-04-01 01:43:30,477 - Model - INFO - eval point avg class IoU: 0.380337
+2026-04-01 01:43:30,477 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.508 
+class wound_bed      IoU: 0.253 
+
+2026-04-01 01:43:30,477 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:43:30,477 - Model - INFO - **** Epoch 18 (18/200) ****
+2026-04-01 01:44:14,009 - Model - INFO - Training mean loss: 0.406010
+2026-04-01 01:44:14,009 - Model - INFO - Training accuracy: 0.687924
+2026-04-01 01:44:14,009 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:44:15,928 - Model - INFO - eval mean loss: 0.441305
+2026-04-01 01:44:15,928 - Model - INFO - eval point accuracy: 0.656835
+2026-04-01 01:44:15,928 - Model - INFO - eval point avg class IoU: 0.443039
+2026-04-01 01:44:15,928 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.603 
+class wound_bed      IoU: 0.283 
+
+2026-04-01 01:44:15,928 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:44:15,928 - Model - INFO - **** Epoch 19 (19/200) ****
+2026-04-01 01:44:59,583 - Model - INFO - Training mean loss: 0.405743
+2026-04-01 01:44:59,583 - Model - INFO - Training accuracy: 0.686757
+2026-04-01 01:44:59,583 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:45:01,481 - Model - INFO - eval mean loss: 0.429545
+2026-04-01 01:45:01,481 - Model - INFO - eval point accuracy: 0.688085
+2026-04-01 01:45:01,481 - Model - INFO - eval point avg class IoU: 0.469809
+2026-04-01 01:45:01,481 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.640 
+class wound_bed      IoU: 0.300 
+
+2026-04-01 01:45:01,481 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:45:01,481 - Model - INFO - **** Epoch 20 (20/200) ****
+2026-04-01 01:45:45,432 - Model - INFO - Training mean loss: 0.405256
+2026-04-01 01:45:45,432 - Model - INFO - Training accuracy: 0.687513
+2026-04-01 01:45:45,432 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:45:47,358 - Model - INFO - eval mean loss: 0.462470
+2026-04-01 01:45:47,359 - Model - INFO - eval point accuracy: 0.732625
+2026-04-01 01:45:47,359 - Model - INFO - eval point avg class IoU: 0.506533
+2026-04-01 01:45:47,359 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.694 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 01:45:47,359 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:45:47,359 - Model - INFO - **** Epoch 21 (21/200) ****
+2026-04-01 01:46:31,039 - Model - INFO - Training mean loss: 0.404331
+2026-04-01 01:46:31,039 - Model - INFO - Training accuracy: 0.689331
+2026-04-01 01:46:31,040 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:46:32,984 - Model - INFO - eval mean loss: 0.431480
+2026-04-01 01:46:32,984 - Model - INFO - eval point accuracy: 0.689565
+2026-04-01 01:46:32,984 - Model - INFO - eval point avg class IoU: 0.471216
+2026-04-01 01:46:32,984 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.642 
+class wound_bed      IoU: 0.301 
+
+2026-04-01 01:46:32,984 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:46:32,984 - Model - INFO - **** Epoch 22 (22/200) ****
+2026-04-01 01:47:16,649 - Model - INFO - Training mean loss: 0.403883
+2026-04-01 01:47:16,649 - Model - INFO - Training accuracy: 0.690455
+2026-04-01 01:47:16,649 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:47:18,563 - Model - INFO - eval mean loss: 0.448905
+2026-04-01 01:47:18,563 - Model - INFO - eval point accuracy: 0.728139
+2026-04-01 01:47:18,563 - Model - INFO - eval point avg class IoU: 0.503896
+2026-04-01 01:47:18,563 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.688 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 01:47:18,563 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:47:18,563 - Model - INFO - **** Epoch 23 (23/200) ****
+2026-04-01 01:48:02,273 - Model - INFO - Training mean loss: 0.402954
+2026-04-01 01:48:02,274 - Model - INFO - Training accuracy: 0.691103
+2026-04-01 01:48:02,274 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:48:04,199 - Model - INFO - eval mean loss: 0.501817
+2026-04-01 01:48:04,199 - Model - INFO - eval point accuracy: 0.773753
+2026-04-01 01:48:04,199 - Model - INFO - eval point avg class IoU: 0.541744
+2026-04-01 01:48:04,199 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.744 
+class wound_bed      IoU: 0.340 
+
+2026-04-01 01:48:04,200 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:48:04,200 - Model - INFO - **** Epoch 24 (24/200) ****
+2026-04-01 01:48:47,882 - Model - INFO - Training mean loss: 0.402912
+2026-04-01 01:48:47,882 - Model - INFO - Training accuracy: 0.690902
+2026-04-01 01:48:47,882 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:48:49,811 - Model - INFO - eval mean loss: 0.430981
+2026-04-01 01:48:49,811 - Model - INFO - eval point accuracy: 0.703395
+2026-04-01 01:48:49,811 - Model - INFO - eval point avg class IoU: 0.483577
+2026-04-01 01:48:49,811 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.658 
+class wound_bed      IoU: 0.309 
+
+2026-04-01 01:48:49,811 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:48:49,811 - Model - INFO - **** Epoch 25 (25/200) ****
+2026-04-01 01:49:33,401 - Model - INFO - Training mean loss: 0.402764
+2026-04-01 01:49:33,401 - Model - INFO - Training accuracy: 0.690790
+2026-04-01 01:49:33,402 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:49:35,346 - Model - INFO - eval mean loss: 0.443790
+2026-04-01 01:49:35,346 - Model - INFO - eval point accuracy: 0.726212
+2026-04-01 01:49:35,346 - Model - INFO - eval point avg class IoU: 0.502463
+2026-04-01 01:49:35,346 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.686 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 01:49:35,346 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:49:35,346 - Model - INFO - **** Epoch 26 (26/200) ****
+2026-04-01 01:50:19,023 - Model - INFO - Training mean loss: 0.402039
+2026-04-01 01:50:19,023 - Model - INFO - Training accuracy: 0.691965
+2026-04-01 01:50:19,023 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:50:20,933 - Model - INFO - eval mean loss: 0.442203
+2026-04-01 01:50:20,934 - Model - INFO - eval point accuracy: 0.705907
+2026-04-01 01:50:20,934 - Model - INFO - eval point avg class IoU: 0.484281
+2026-04-01 01:50:20,934 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.662 
+class wound_bed      IoU: 0.307 
+
+2026-04-01 01:50:20,934 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:50:20,934 - Model - INFO - **** Epoch 27 (27/200) ****
+2026-04-01 01:51:04,762 - Model - INFO - Training mean loss: 0.402414
+2026-04-01 01:51:04,762 - Model - INFO - Training accuracy: 0.691314
+2026-04-01 01:51:04,762 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:51:06,706 - Model - INFO - eval mean loss: 0.427753
+2026-04-01 01:51:06,706 - Model - INFO - eval point accuracy: 0.689260
+2026-04-01 01:51:06,706 - Model - INFO - eval point avg class IoU: 0.470353
+2026-04-01 01:51:06,706 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.642 
+class wound_bed      IoU: 0.299 
+
+2026-04-01 01:51:06,706 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:51:06,706 - Model - INFO - **** Epoch 28 (28/200) ****
+2026-04-01 01:51:50,319 - Model - INFO - Training mean loss: 0.401817
+2026-04-01 01:51:50,319 - Model - INFO - Training accuracy: 0.691598
+2026-04-01 01:51:50,320 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:51:52,255 - Model - INFO - eval mean loss: 0.427184
+2026-04-01 01:51:52,255 - Model - INFO - eval point accuracy: 0.667618
+2026-04-01 01:51:52,255 - Model - INFO - eval point avg class IoU: 0.453015
+2026-04-01 01:51:52,255 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.615 
+class wound_bed      IoU: 0.291 
+
+2026-04-01 01:51:52,255 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:51:52,255 - Model - INFO - **** Epoch 29 (29/200) ****
+2026-04-01 01:52:35,933 - Model - INFO - Training mean loss: 0.401762
+2026-04-01 01:52:35,933 - Model - INFO - Training accuracy: 0.692193
+2026-04-01 01:52:35,934 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:52:37,861 - Model - INFO - eval mean loss: 0.459792
+2026-04-01 01:52:37,862 - Model - INFO - eval point accuracy: 0.747513
+2026-04-01 01:52:37,862 - Model - INFO - eval point avg class IoU: 0.520251
+2026-04-01 01:52:37,862 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.712 
+class wound_bed      IoU: 0.329 
+
+2026-04-01 01:52:37,862 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:52:37,862 - Model - INFO - **** Epoch 30 (30/200) ****
+2026-04-01 01:53:21,679 - Model - INFO - Training mean loss: 0.401149
+2026-04-01 01:53:21,679 - Model - INFO - Training accuracy: 0.693805
+2026-04-01 01:53:21,680 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:53:23,590 - Model - INFO - eval mean loss: 0.434192
+2026-04-01 01:53:23,590 - Model - INFO - eval point accuracy: 0.697220
+2026-04-01 01:53:23,590 - Model - INFO - eval point avg class IoU: 0.478422
+2026-04-01 01:53:23,590 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.650 
+class wound_bed      IoU: 0.306 
+
+2026-04-01 01:53:23,590 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:53:23,590 - Model - INFO - **** Epoch 31 (31/200) ****
+2026-04-01 01:54:07,108 - Model - INFO - Training mean loss: 0.400260
+2026-04-01 01:54:07,108 - Model - INFO - Training accuracy: 0.694129
+2026-04-01 01:54:07,108 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:54:09,044 - Model - INFO - eval mean loss: 0.434080
+2026-04-01 01:54:09,044 - Model - INFO - eval point accuracy: 0.718236
+2026-04-01 01:54:09,044 - Model - INFO - eval point avg class IoU: 0.496284
+2026-04-01 01:54:09,044 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.676 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 01:54:09,044 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:54:09,044 - Model - INFO - **** Epoch 32 (32/200) ****
+2026-04-01 01:54:52,597 - Model - INFO - Training mean loss: 0.399734
+2026-04-01 01:54:52,597 - Model - INFO - Training accuracy: 0.694288
+2026-04-01 01:54:52,597 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:54:54,519 - Model - INFO - eval mean loss: 0.432728
+2026-04-01 01:54:54,519 - Model - INFO - eval point accuracy: 0.668976
+2026-04-01 01:54:54,519 - Model - INFO - eval point avg class IoU: 0.454295
+2026-04-01 01:54:54,519 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.617 
+class wound_bed      IoU: 0.292 
+
+2026-04-01 01:54:54,520 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:54:54,520 - Model - INFO - **** Epoch 33 (33/200) ****
+2026-04-01 01:55:38,349 - Model - INFO - Training mean loss: 0.400381
+2026-04-01 01:55:38,349 - Model - INFO - Training accuracy: 0.694447
+2026-04-01 01:55:38,349 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:55:40,285 - Model - INFO - eval mean loss: 0.466293
+2026-04-01 01:55:40,285 - Model - INFO - eval point accuracy: 0.754700
+2026-04-01 01:55:40,285 - Model - INFO - eval point avg class IoU: 0.526043
+2026-04-01 01:55:40,285 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.721 
+class wound_bed      IoU: 0.331 
+
+2026-04-01 01:55:40,285 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:55:40,285 - Model - INFO - **** Epoch 34 (34/200) ****
+2026-04-01 01:56:23,889 - Model - INFO - Training mean loss: 0.398934
+2026-04-01 01:56:23,889 - Model - INFO - Training accuracy: 0.694646
+2026-04-01 01:56:23,889 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:56:25,812 - Model - INFO - eval mean loss: 0.435603
+2026-04-01 01:56:25,812 - Model - INFO - eval point accuracy: 0.714584
+2026-04-01 01:56:25,812 - Model - INFO - eval point avg class IoU: 0.492050
+2026-04-01 01:56:25,812 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.672 
+class wound_bed      IoU: 0.312 
+
+2026-04-01 01:56:25,812 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:56:25,812 - Model - INFO - **** Epoch 35 (35/200) ****
+2026-04-01 01:57:09,712 - Model - INFO - Training mean loss: 0.400427
+2026-04-01 01:57:09,712 - Model - INFO - Training accuracy: 0.694724
+2026-04-01 01:57:09,712 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:57:11,652 - Model - INFO - eval mean loss: 0.433426
+2026-04-01 01:57:11,652 - Model - INFO - eval point accuracy: 0.696625
+2026-04-01 01:57:11,652 - Model - INFO - eval point avg class IoU: 0.477502
+2026-04-01 01:57:11,652 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.650 
+class wound_bed      IoU: 0.305 
+
+2026-04-01 01:57:11,652 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:57:11,652 - Model - INFO - **** Epoch 36 (36/200) ****
+2026-04-01 01:57:55,331 - Model - INFO - Training mean loss: 0.400211
+2026-04-01 01:57:55,331 - Model - INFO - Training accuracy: 0.694434
+2026-04-01 01:57:55,332 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:57:57,276 - Model - INFO - eval mean loss: 0.446054
+2026-04-01 01:57:57,276 - Model - INFO - eval point accuracy: 0.728363
+2026-04-01 01:57:57,276 - Model - INFO - eval point avg class IoU: 0.503777
+2026-04-01 01:57:57,276 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.689 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 01:57:57,276 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:57:57,276 - Model - INFO - **** Epoch 37 (37/200) ****
+2026-04-01 01:58:40,968 - Model - INFO - Training mean loss: 0.398359
+2026-04-01 01:58:40,968 - Model - INFO - Training accuracy: 0.696223
+2026-04-01 01:58:40,968 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:58:42,902 - Model - INFO - eval mean loss: 0.432346
+2026-04-01 01:58:42,902 - Model - INFO - eval point accuracy: 0.706807
+2026-04-01 01:58:42,902 - Model - INFO - eval point avg class IoU: 0.486308
+2026-04-01 01:58:42,902 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.662 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 01:58:42,902 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:58:42,902 - Model - INFO - **** Epoch 38 (38/200) ****
+2026-04-01 01:59:26,599 - Model - INFO - Training mean loss: 0.398966
+2026-04-01 01:59:26,599 - Model - INFO - Training accuracy: 0.695760
+2026-04-01 01:59:26,599 - Model - INFO - ---- EVALUATION ----
+2026-04-01 01:59:28,527 - Model - INFO - eval mean loss: 0.430313
+2026-04-01 01:59:28,527 - Model - INFO - eval point accuracy: 0.710470
+2026-04-01 01:59:28,527 - Model - INFO - eval point avg class IoU: 0.489436
+2026-04-01 01:59:28,527 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.667 
+class wound_bed      IoU: 0.312 
+
+2026-04-01 01:59:28,527 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 01:59:28,527 - Model - INFO - **** Epoch 39 (39/200) ****
+2026-04-01 02:00:12,212 - Model - INFO - Training mean loss: 0.399386
+2026-04-01 02:00:12,212 - Model - INFO - Training accuracy: 0.695873
+2026-04-01 02:00:12,212 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:00:14,149 - Model - INFO - eval mean loss: 0.430505
+2026-04-01 02:00:14,149 - Model - INFO - eval point accuracy: 0.655268
+2026-04-01 02:00:14,149 - Model - INFO - eval point avg class IoU: 0.442656
+2026-04-01 02:00:14,149 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.600 
+class wound_bed      IoU: 0.285 
+
+2026-04-01 02:00:14,149 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:00:14,149 - Model - INFO - **** Epoch 40 (40/200) ****
+2026-04-01 02:00:57,905 - Model - INFO - Training mean loss: 0.398041
+2026-04-01 02:00:57,905 - Model - INFO - Training accuracy: 0.696020
+2026-04-01 02:00:57,905 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:00:59,803 - Model - INFO - eval mean loss: 0.473748
+2026-04-01 02:00:59,803 - Model - INFO - eval point accuracy: 0.754084
+2026-04-01 02:00:59,803 - Model - INFO - eval point avg class IoU: 0.524386
+2026-04-01 02:00:59,803 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.720 
+class wound_bed      IoU: 0.328 
+
+2026-04-01 02:00:59,803 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:00:59,803 - Model - INFO - **** Epoch 41 (41/200) ****
+2026-04-01 02:01:43,477 - Model - INFO - Training mean loss: 0.397994
+2026-04-01 02:01:43,477 - Model - INFO - Training accuracy: 0.696508
+2026-04-01 02:01:43,477 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:01:45,399 - Model - INFO - eval mean loss: 0.435690
+2026-04-01 02:01:45,399 - Model - INFO - eval point accuracy: 0.722590
+2026-04-01 02:01:45,399 - Model - INFO - eval point avg class IoU: 0.499608
+2026-04-01 02:01:45,399 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.681 
+class wound_bed      IoU: 0.318 
+
+2026-04-01 02:01:45,399 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:01:45,399 - Model - INFO - **** Epoch 42 (42/200) ****
+2026-04-01 02:02:29,831 - Model - INFO - Training mean loss: 0.397226
+2026-04-01 02:02:29,831 - Model - INFO - Training accuracy: 0.696812
+2026-04-01 02:02:29,831 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:02:31,745 - Model - INFO - eval mean loss: 0.464530
+2026-04-01 02:02:31,745 - Model - INFO - eval point accuracy: 0.763585
+2026-04-01 02:02:31,745 - Model - INFO - eval point avg class IoU: 0.534860
+2026-04-01 02:02:31,745 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.731 
+class wound_bed      IoU: 0.339 
+
+2026-04-01 02:02:31,745 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:02:31,745 - Model - INFO - **** Epoch 43 (43/200) ****
+2026-04-01 02:03:16,204 - Model - INFO - Training mean loss: 0.397766
+2026-04-01 02:03:16,204 - Model - INFO - Training accuracy: 0.697046
+2026-04-01 02:03:16,204 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:03:18,109 - Model - INFO - eval mean loss: 0.435653
+2026-04-01 02:03:18,109 - Model - INFO - eval point accuracy: 0.724803
+2026-04-01 02:03:18,109 - Model - INFO - eval point avg class IoU: 0.501576
+2026-04-01 02:03:18,109 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.684 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 02:03:18,109 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:03:18,109 - Model - INFO - **** Epoch 44 (44/200) ****
+2026-04-01 02:04:01,889 - Model - INFO - Training mean loss: 0.397430
+2026-04-01 02:04:01,889 - Model - INFO - Training accuracy: 0.697570
+2026-04-01 02:04:01,889 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:04:03,812 - Model - INFO - eval mean loss: 0.434472
+2026-04-01 02:04:03,812 - Model - INFO - eval point accuracy: 0.714976
+2026-04-01 02:04:03,812 - Model - INFO - eval point avg class IoU: 0.493093
+2026-04-01 02:04:03,812 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.672 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 02:04:03,812 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:04:03,812 - Model - INFO - **** Epoch 45 (45/200) ****
+2026-04-01 02:04:47,377 - Model - INFO - Training mean loss: 0.396413
+2026-04-01 02:04:47,377 - Model - INFO - Training accuracy: 0.697863
+2026-04-01 02:04:47,377 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:04:49,291 - Model - INFO - eval mean loss: 0.425756
+2026-04-01 02:04:49,291 - Model - INFO - eval point accuracy: 0.689540
+2026-04-01 02:04:49,291 - Model - INFO - eval point avg class IoU: 0.472019
+2026-04-01 02:04:49,291 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.641 
+class wound_bed      IoU: 0.303 
+
+2026-04-01 02:04:49,291 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:04:49,291 - Model - INFO - **** Epoch 46 (46/200) ****
+2026-04-01 02:05:32,863 - Model - INFO - Training mean loss: 0.396880
+2026-04-01 02:05:32,863 - Model - INFO - Training accuracy: 0.698409
+2026-04-01 02:05:32,863 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:05:34,763 - Model - INFO - eval mean loss: 0.429873
+2026-04-01 02:05:34,763 - Model - INFO - eval point accuracy: 0.719660
+2026-04-01 02:05:34,763 - Model - INFO - eval point avg class IoU: 0.497037
+2026-04-01 02:05:34,763 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.678 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 02:05:34,763 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:05:34,763 - Model - INFO - **** Epoch 47 (47/200) ****
+2026-04-01 02:06:18,297 - Model - INFO - Training mean loss: 0.397358
+2026-04-01 02:06:18,297 - Model - INFO - Training accuracy: 0.696871
+2026-04-01 02:06:18,297 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:06:20,227 - Model - INFO - eval mean loss: 0.425422
+2026-04-01 02:06:20,227 - Model - INFO - eval point accuracy: 0.700729
+2026-04-01 02:06:20,227 - Model - INFO - eval point avg class IoU: 0.480333
+2026-04-01 02:06:20,227 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.655 
+class wound_bed      IoU: 0.305 
+
+2026-04-01 02:06:20,227 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:06:20,227 - Model - INFO - **** Epoch 48 (48/200) ****
+2026-04-01 02:07:03,789 - Model - INFO - Training mean loss: 0.397291
+2026-04-01 02:07:03,789 - Model - INFO - Training accuracy: 0.697555
+2026-04-01 02:07:03,789 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:07:05,709 - Model - INFO - eval mean loss: 0.438876
+2026-04-01 02:07:05,709 - Model - INFO - eval point accuracy: 0.731216
+2026-04-01 02:07:05,709 - Model - INFO - eval point avg class IoU: 0.506460
+2026-04-01 02:07:05,709 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.692 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 02:07:05,709 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:07:05,709 - Model - INFO - **** Epoch 49 (49/200) ****
+2026-04-01 02:07:49,262 - Model - INFO - Training mean loss: 0.397346
+2026-04-01 02:07:49,262 - Model - INFO - Training accuracy: 0.696286
+2026-04-01 02:07:49,262 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:07:51,192 - Model - INFO - eval mean loss: 0.435229
+2026-04-01 02:07:51,192 - Model - INFO - eval point accuracy: 0.715200
+2026-04-01 02:07:51,192 - Model - INFO - eval point avg class IoU: 0.492952
+2026-04-01 02:07:51,192 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.673 
+class wound_bed      IoU: 0.313 
+
+2026-04-01 02:07:51,192 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:07:51,192 - Model - INFO - **** Epoch 50 (50/200) ****
+2026-04-01 02:08:34,804 - Model - INFO - Training mean loss: 0.396660
+2026-04-01 02:08:34,805 - Model - INFO - Training accuracy: 0.697248
+2026-04-01 02:08:34,805 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:08:36,733 - Model - INFO - eval mean loss: 0.436807
+2026-04-01 02:08:36,733 - Model - INFO - eval point accuracy: 0.715876
+2026-04-01 02:08:36,733 - Model - INFO - eval point avg class IoU: 0.494660
+2026-04-01 02:08:36,733 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.673 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 02:08:36,733 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:08:36,733 - Model - INFO - **** Epoch 51 (51/200) ****
+2026-04-01 02:09:20,568 - Model - INFO - Training mean loss: 0.395226
+2026-04-01 02:09:20,568 - Model - INFO - Training accuracy: 0.699029
+2026-04-01 02:09:20,568 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:09:22,498 - Model - INFO - eval mean loss: 0.429187
+2026-04-01 02:09:22,498 - Model - INFO - eval point accuracy: 0.692357
+2026-04-01 02:09:22,498 - Model - INFO - eval point avg class IoU: 0.473928
+2026-04-01 02:09:22,498 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.645 
+class wound_bed      IoU: 0.303 
+
+2026-04-01 02:09:22,499 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:09:22,499 - Model - INFO - **** Epoch 52 (52/200) ****
+2026-04-01 02:10:06,110 - Model - INFO - Training mean loss: 0.396053
+2026-04-01 02:10:06,110 - Model - INFO - Training accuracy: 0.697399
+2026-04-01 02:10:06,111 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:10:08,067 - Model - INFO - eval mean loss: 0.434445
+2026-04-01 02:10:08,067 - Model - INFO - eval point accuracy: 0.734594
+2026-04-01 02:10:08,067 - Model - INFO - eval point avg class IoU: 0.510666
+2026-04-01 02:10:08,067 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.696 
+class wound_bed      IoU: 0.326 
+
+2026-04-01 02:10:08,067 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:10:08,067 - Model - INFO - **** Epoch 53 (53/200) ****
+2026-04-01 02:10:51,671 - Model - INFO - Training mean loss: 0.395839
+2026-04-01 02:10:51,671 - Model - INFO - Training accuracy: 0.699041
+2026-04-01 02:10:51,671 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:10:53,603 - Model - INFO - eval mean loss: 0.434508
+2026-04-01 02:10:53,603 - Model - INFO - eval point accuracy: 0.728892
+2026-04-01 02:10:53,603 - Model - INFO - eval point avg class IoU: 0.505036
+2026-04-01 02:10:53,603 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.689 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 02:10:53,603 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:10:53,604 - Model - INFO - **** Epoch 54 (54/200) ****
+2026-04-01 02:11:37,221 - Model - INFO - Training mean loss: 0.394943
+2026-04-01 02:11:37,221 - Model - INFO - Training accuracy: 0.698418
+2026-04-01 02:11:37,221 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:11:39,152 - Model - INFO - eval mean loss: 0.427055
+2026-04-01 02:11:39,152 - Model - INFO - eval point accuracy: 0.689265
+2026-04-01 02:11:39,152 - Model - INFO - eval point avg class IoU: 0.471603
+2026-04-01 02:11:39,152 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.641 
+class wound_bed      IoU: 0.302 
+
+2026-04-01 02:11:39,152 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:11:39,152 - Model - INFO - **** Epoch 55 (55/200) ****
+2026-04-01 02:12:23,012 - Model - INFO - Training mean loss: 0.395632
+2026-04-01 02:12:23,012 - Model - INFO - Training accuracy: 0.699296
+2026-04-01 02:12:23,012 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:12:24,933 - Model - INFO - eval mean loss: 0.430924
+2026-04-01 02:12:24,933 - Model - INFO - eval point accuracy: 0.712840
+2026-04-01 02:12:24,933 - Model - INFO - eval point avg class IoU: 0.491601
+2026-04-01 02:12:24,933 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.669 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 02:12:24,933 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:12:24,933 - Model - INFO - **** Epoch 56 (56/200) ****
+2026-04-01 02:13:08,727 - Model - INFO - Training mean loss: 0.394923
+2026-04-01 02:13:08,727 - Model - INFO - Training accuracy: 0.697870
+2026-04-01 02:13:08,728 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:13:10,664 - Model - INFO - eval mean loss: 0.426730
+2026-04-01 02:13:10,664 - Model - INFO - eval point accuracy: 0.665604
+2026-04-01 02:13:10,664 - Model - INFO - eval point avg class IoU: 0.451421
+2026-04-01 02:13:10,664 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.613 
+class wound_bed      IoU: 0.290 
+
+2026-04-01 02:13:10,664 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:13:10,664 - Model - INFO - **** Epoch 57 (57/200) ****
+2026-04-01 02:13:54,529 - Model - INFO - Training mean loss: 0.396079
+2026-04-01 02:13:54,529 - Model - INFO - Training accuracy: 0.698702
+2026-04-01 02:13:54,530 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:13:56,468 - Model - INFO - eval mean loss: 0.439052
+2026-04-01 02:13:56,468 - Model - INFO - eval point accuracy: 0.729294
+2026-04-01 02:13:56,469 - Model - INFO - eval point avg class IoU: 0.505220
+2026-04-01 02:13:56,469 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.690 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 02:13:56,469 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:13:56,469 - Model - INFO - **** Epoch 58 (58/200) ****
+2026-04-01 02:14:40,306 - Model - INFO - Training mean loss: 0.395142
+2026-04-01 02:14:40,306 - Model - INFO - Training accuracy: 0.699257
+2026-04-01 02:14:40,306 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:14:42,244 - Model - INFO - eval mean loss: 0.433448
+2026-04-01 02:14:42,244 - Model - INFO - eval point accuracy: 0.713018
+2026-04-01 02:14:42,244 - Model - INFO - eval point avg class IoU: 0.491809
+2026-04-01 02:14:42,244 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.670 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 02:14:42,244 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:14:42,245 - Model - INFO - **** Epoch 59 (59/200) ****
+2026-04-01 02:15:25,971 - Model - INFO - Training mean loss: 0.395290
+2026-04-01 02:15:25,971 - Model - INFO - Training accuracy: 0.699107
+2026-04-01 02:15:25,971 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:15:27,893 - Model - INFO - eval mean loss: 0.426559
+2026-04-01 02:15:27,893 - Model - INFO - eval point accuracy: 0.702194
+2026-04-01 02:15:27,893 - Model - INFO - eval point avg class IoU: 0.482528
+2026-04-01 02:15:27,893 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.657 
+class wound_bed      IoU: 0.308 
+
+2026-04-01 02:15:27,893 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:15:27,893 - Model - INFO - **** Epoch 60 (60/200) ****
+2026-04-01 02:16:11,746 - Model - INFO - Training mean loss: 0.394342
+2026-04-01 02:16:11,747 - Model - INFO - Training accuracy: 0.699298
+2026-04-01 02:16:11,747 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:16:13,684 - Model - INFO - eval mean loss: 0.434042
+2026-04-01 02:16:13,684 - Model - INFO - eval point accuracy: 0.717458
+2026-04-01 02:16:13,684 - Model - INFO - eval point avg class IoU: 0.495477
+2026-04-01 02:16:13,684 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.675 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 02:16:13,684 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:16:13,684 - Model - INFO - **** Epoch 61 (61/200) ****
+2026-04-01 02:16:57,531 - Model - INFO - Training mean loss: 0.394635
+2026-04-01 02:16:57,531 - Model - INFO - Training accuracy: 0.700763
+2026-04-01 02:16:57,532 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:16:59,450 - Model - INFO - eval mean loss: 0.429564
+2026-04-01 02:16:59,450 - Model - INFO - eval point accuracy: 0.717122
+2026-04-01 02:16:59,450 - Model - INFO - eval point avg class IoU: 0.495500
+2026-04-01 02:16:59,450 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.674 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 02:16:59,450 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:16:59,450 - Model - INFO - **** Epoch 62 (62/200) ****
+2026-04-01 02:17:43,122 - Model - INFO - Training mean loss: 0.394373
+2026-04-01 02:17:43,122 - Model - INFO - Training accuracy: 0.698814
+2026-04-01 02:17:43,122 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:17:45,069 - Model - INFO - eval mean loss: 0.435089
+2026-04-01 02:17:45,069 - Model - INFO - eval point accuracy: 0.725967
+2026-04-01 02:17:45,069 - Model - INFO - eval point avg class IoU: 0.502527
+2026-04-01 02:17:45,069 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.685 
+class wound_bed      IoU: 0.320 
+
+2026-04-01 02:17:45,069 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:17:45,069 - Model - INFO - **** Epoch 63 (63/200) ****
+2026-04-01 02:18:28,855 - Model - INFO - Training mean loss: 0.394000
+2026-04-01 02:18:28,855 - Model - INFO - Training accuracy: 0.700605
+2026-04-01 02:18:28,855 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:18:30,760 - Model - INFO - eval mean loss: 0.439117
+2026-04-01 02:18:30,760 - Model - INFO - eval point accuracy: 0.729940
+2026-04-01 02:18:30,760 - Model - INFO - eval point avg class IoU: 0.505689
+2026-04-01 02:18:30,760 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.690 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 02:18:30,760 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:18:30,760 - Model - INFO - **** Epoch 64 (64/200) ****
+2026-04-01 02:19:14,408 - Model - INFO - Training mean loss: 0.393145
+2026-04-01 02:19:14,408 - Model - INFO - Training accuracy: 0.699647
+2026-04-01 02:19:14,408 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:19:16,350 - Model - INFO - eval mean loss: 0.442511
+2026-04-01 02:19:16,351 - Model - INFO - eval point accuracy: 0.730021
+2026-04-01 02:19:16,351 - Model - INFO - eval point avg class IoU: 0.505699
+2026-04-01 02:19:16,351 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.691 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 02:19:16,351 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:19:16,351 - Model - INFO - **** Epoch 65 (65/200) ****
+2026-04-01 02:20:00,087 - Model - INFO - Training mean loss: 0.393135
+2026-04-01 02:20:00,087 - Model - INFO - Training accuracy: 0.700124
+2026-04-01 02:20:00,087 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:20:02,018 - Model - INFO - eval mean loss: 0.425209
+2026-04-01 02:20:02,018 - Model - INFO - eval point accuracy: 0.706823
+2026-04-01 02:20:02,018 - Model - INFO - eval point avg class IoU: 0.486604
+2026-04-01 02:20:02,019 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.662 
+class wound_bed      IoU: 0.311 
+
+2026-04-01 02:20:02,019 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:20:02,019 - Model - INFO - **** Epoch 66 (66/200) ****
+2026-04-01 02:20:45,729 - Model - INFO - Training mean loss: 0.394492
+2026-04-01 02:20:45,729 - Model - INFO - Training accuracy: 0.699992
+2026-04-01 02:20:45,729 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:20:47,653 - Model - INFO - eval mean loss: 0.425425
+2026-04-01 02:20:47,653 - Model - INFO - eval point accuracy: 0.701141
+2026-04-01 02:20:47,653 - Model - INFO - eval point avg class IoU: 0.481499
+2026-04-01 02:20:47,653 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.655 
+class wound_bed      IoU: 0.308 
+
+2026-04-01 02:20:47,653 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:20:47,653 - Model - INFO - **** Epoch 67 (67/200) ****
+2026-04-01 02:21:31,132 - Model - INFO - Training mean loss: 0.393465
+2026-04-01 02:21:31,132 - Model - INFO - Training accuracy: 0.700050
+2026-04-01 02:21:31,132 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:21:33,038 - Model - INFO - eval mean loss: 0.438348
+2026-04-01 02:21:33,038 - Model - INFO - eval point accuracy: 0.743306
+2026-04-01 02:21:33,038 - Model - INFO - eval point avg class IoU: 0.517781
+2026-04-01 02:21:33,038 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.706 
+class wound_bed      IoU: 0.329 
+
+2026-04-01 02:21:33,038 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:21:33,038 - Model - INFO - **** Epoch 68 (68/200) ****
+2026-04-01 02:22:16,745 - Model - INFO - Training mean loss: 0.394287
+2026-04-01 02:22:16,745 - Model - INFO - Training accuracy: 0.699580
+2026-04-01 02:22:16,745 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:22:18,671 - Model - INFO - eval mean loss: 0.427132
+2026-04-01 02:22:18,671 - Model - INFO - eval point accuracy: 0.710231
+2026-04-01 02:22:18,671 - Model - INFO - eval point avg class IoU: 0.489821
+2026-04-01 02:22:18,671 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 02:22:18,671 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:22:18,671 - Model - INFO - **** Epoch 69 (69/200) ****
+2026-04-01 02:23:02,367 - Model - INFO - Training mean loss: 0.393481
+2026-04-01 02:23:02,367 - Model - INFO - Training accuracy: 0.701487
+2026-04-01 02:23:02,367 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:23:04,303 - Model - INFO - eval mean loss: 0.423573
+2026-04-01 02:23:04,303 - Model - INFO - eval point accuracy: 0.697149
+2026-04-01 02:23:04,303 - Model - INFO - eval point avg class IoU: 0.478005
+2026-04-01 02:23:04,303 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.651 
+class wound_bed      IoU: 0.305 
+
+2026-04-01 02:23:04,303 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:23:04,303 - Model - INFO - **** Epoch 70 (70/200) ****
+2026-04-01 02:23:48,014 - Model - INFO - Training mean loss: 0.393636
+2026-04-01 02:23:48,014 - Model - INFO - Training accuracy: 0.699791
+2026-04-01 02:23:48,014 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:23:49,924 - Model - INFO - eval mean loss: 0.427540
+2026-04-01 02:23:49,924 - Model - INFO - eval point accuracy: 0.704936
+2026-04-01 02:23:49,924 - Model - INFO - eval point avg class IoU: 0.485051
+2026-04-01 02:23:49,924 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.660 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 02:23:49,924 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:23:49,924 - Model - INFO - **** Epoch 71 (71/200) ****
+2026-04-01 02:24:33,641 - Model - INFO - Training mean loss: 0.392086
+2026-04-01 02:24:33,641 - Model - INFO - Training accuracy: 0.701070
+2026-04-01 02:24:33,641 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:24:35,574 - Model - INFO - eval mean loss: 0.425233
+2026-04-01 02:24:35,574 - Model - INFO - eval point accuracy: 0.711426
+2026-04-01 02:24:35,574 - Model - INFO - eval point avg class IoU: 0.490042
+2026-04-01 02:24:35,574 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.668 
+class wound_bed      IoU: 0.312 
+
+2026-04-01 02:24:35,574 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:24:35,574 - Model - INFO - **** Epoch 72 (72/200) ****
+2026-04-01 02:25:19,250 - Model - INFO - Training mean loss: 0.393335
+2026-04-01 02:25:19,250 - Model - INFO - Training accuracy: 0.701250
+2026-04-01 02:25:19,251 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:25:21,178 - Model - INFO - eval mean loss: 0.430881
+2026-04-01 02:25:21,179 - Model - INFO - eval point accuracy: 0.727000
+2026-04-01 02:25:21,179 - Model - INFO - eval point avg class IoU: 0.503932
+2026-04-01 02:25:21,179 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.686 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 02:25:21,179 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:25:21,179 - Model - INFO - **** Epoch 73 (73/200) ****
+2026-04-01 02:26:04,817 - Model - INFO - Training mean loss: 0.392142
+2026-04-01 02:26:04,817 - Model - INFO - Training accuracy: 0.702323
+2026-04-01 02:26:04,817 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:26:06,735 - Model - INFO - eval mean loss: 0.440766
+2026-04-01 02:26:06,735 - Model - INFO - eval point accuracy: 0.735936
+2026-04-01 02:26:06,735 - Model - INFO - eval point avg class IoU: 0.512171
+2026-04-01 02:26:06,735 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.697 
+class wound_bed      IoU: 0.327 
+
+2026-04-01 02:26:06,735 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:26:06,735 - Model - INFO - **** Epoch 74 (74/200) ****
+2026-04-01 02:26:50,424 - Model - INFO - Training mean loss: 0.392776
+2026-04-01 02:26:50,424 - Model - INFO - Training accuracy: 0.701107
+2026-04-01 02:26:50,424 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:26:52,353 - Model - INFO - eval mean loss: 0.420113
+2026-04-01 02:26:52,354 - Model - INFO - eval point accuracy: 0.693542
+2026-04-01 02:26:52,354 - Model - INFO - eval point avg class IoU: 0.476137
+2026-04-01 02:26:52,354 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.645 
+class wound_bed      IoU: 0.307 
+
+2026-04-01 02:26:52,354 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:26:52,354 - Model - INFO - **** Epoch 75 (75/200) ****
+2026-04-01 02:27:36,086 - Model - INFO - Training mean loss: 0.393047
+2026-04-01 02:27:36,087 - Model - INFO - Training accuracy: 0.700979
+2026-04-01 02:27:36,087 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:27:38,012 - Model - INFO - eval mean loss: 0.428687
+2026-04-01 02:27:38,012 - Model - INFO - eval point accuracy: 0.708165
+2026-04-01 02:27:38,012 - Model - INFO - eval point avg class IoU: 0.487121
+2026-04-01 02:27:38,012 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.664 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 02:27:38,012 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:27:38,012 - Model - INFO - **** Epoch 76 (76/200) ****
+2026-04-01 02:28:21,728 - Model - INFO - Training mean loss: 0.391506
+2026-04-01 02:28:21,728 - Model - INFO - Training accuracy: 0.702199
+2026-04-01 02:28:21,728 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:28:23,652 - Model - INFO - eval mean loss: 0.436562
+2026-04-01 02:28:23,652 - Model - INFO - eval point accuracy: 0.725499
+2026-04-01 02:28:23,652 - Model - INFO - eval point avg class IoU: 0.503237
+2026-04-01 02:28:23,652 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.684 
+class wound_bed      IoU: 0.322 
+
+2026-04-01 02:28:23,653 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:28:23,653 - Model - INFO - **** Epoch 77 (77/200) ****
+2026-04-01 02:29:07,352 - Model - INFO - Training mean loss: 0.392214
+2026-04-01 02:29:07,352 - Model - INFO - Training accuracy: 0.702254
+2026-04-01 02:29:07,352 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:29:09,300 - Model - INFO - eval mean loss: 0.424424
+2026-04-01 02:29:09,300 - Model - INFO - eval point accuracy: 0.702159
+2026-04-01 02:29:09,300 - Model - INFO - eval point avg class IoU: 0.482621
+2026-04-01 02:29:09,300 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.656 
+class wound_bed      IoU: 0.309 
+
+2026-04-01 02:29:09,300 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:29:09,300 - Model - INFO - **** Epoch 78 (78/200) ****
+2026-04-01 02:29:52,983 - Model - INFO - Training mean loss: 0.392526
+2026-04-01 02:29:52,983 - Model - INFO - Training accuracy: 0.701101
+2026-04-01 02:29:52,983 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:29:54,912 - Model - INFO - eval mean loss: 0.426900
+2026-04-01 02:29:54,912 - Model - INFO - eval point accuracy: 0.725988
+2026-04-01 02:29:54,912 - Model - INFO - eval point avg class IoU: 0.503528
+2026-04-01 02:29:54,912 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.685 
+class wound_bed      IoU: 0.322 
+
+2026-04-01 02:29:54,912 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:29:54,912 - Model - INFO - **** Epoch 79 (79/200) ****
+2026-04-01 02:30:38,570 - Model - INFO - Training mean loss: 0.393121
+2026-04-01 02:30:38,570 - Model - INFO - Training accuracy: 0.699766
+2026-04-01 02:30:38,570 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:30:40,505 - Model - INFO - eval mean loss: 0.443016
+2026-04-01 02:30:40,505 - Model - INFO - eval point accuracy: 0.724294
+2026-04-01 02:30:40,505 - Model - INFO - eval point avg class IoU: 0.501134
+2026-04-01 02:30:40,505 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.683 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 02:30:40,505 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:30:40,505 - Model - INFO - **** Epoch 80 (80/200) ****
+2026-04-01 02:31:24,228 - Model - INFO - Training mean loss: 0.391904
+2026-04-01 02:31:24,228 - Model - INFO - Training accuracy: 0.701161
+2026-04-01 02:31:24,228 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:31:26,164 - Model - INFO - eval mean loss: 0.432668
+2026-04-01 02:31:26,164 - Model - INFO - eval point accuracy: 0.732300
+2026-04-01 02:31:26,164 - Model - INFO - eval point avg class IoU: 0.509244
+2026-04-01 02:31:26,164 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.692 
+class wound_bed      IoU: 0.326 
+
+2026-04-01 02:31:26,165 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:31:26,165 - Model - INFO - **** Epoch 81 (81/200) ****
+2026-04-01 02:32:09,903 - Model - INFO - Training mean loss: 0.392036
+2026-04-01 02:32:09,903 - Model - INFO - Training accuracy: 0.702468
+2026-04-01 02:32:09,904 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:32:11,835 - Model - INFO - eval mean loss: 0.426025
+2026-04-01 02:32:11,836 - Model - INFO - eval point accuracy: 0.717260
+2026-04-01 02:32:11,836 - Model - INFO - eval point avg class IoU: 0.496134
+2026-04-01 02:32:11,836 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.674 
+class wound_bed      IoU: 0.318 
+
+2026-04-01 02:32:11,836 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:32:11,836 - Model - INFO - **** Epoch 82 (82/200) ****
+2026-04-01 02:32:55,568 - Model - INFO - Training mean loss: 0.392811
+2026-04-01 02:32:55,569 - Model - INFO - Training accuracy: 0.701622
+2026-04-01 02:32:55,569 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:32:57,478 - Model - INFO - eval mean loss: 0.444954
+2026-04-01 02:32:57,478 - Model - INFO - eval point accuracy: 0.739568
+2026-04-01 02:32:57,478 - Model - INFO - eval point avg class IoU: 0.514086
+2026-04-01 02:32:57,478 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.702 
+class wound_bed      IoU: 0.326 
+
+2026-04-01 02:32:57,478 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:32:57,478 - Model - INFO - **** Epoch 83 (83/200) ****
+2026-04-01 02:33:41,092 - Model - INFO - Training mean loss: 0.392415
+2026-04-01 02:33:41,092 - Model - INFO - Training accuracy: 0.701989
+2026-04-01 02:33:41,092 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:33:43,026 - Model - INFO - eval mean loss: 0.424895
+2026-04-01 02:33:43,026 - Model - INFO - eval point accuracy: 0.687703
+2026-04-01 02:33:43,026 - Model - INFO - eval point avg class IoU: 0.469731
+2026-04-01 02:33:43,026 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.639 
+class wound_bed      IoU: 0.300 
+
+2026-04-01 02:33:43,026 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:33:43,026 - Model - INFO - **** Epoch 84 (84/200) ****
+2026-04-01 02:34:26,672 - Model - INFO - Training mean loss: 0.392793
+2026-04-01 02:34:26,673 - Model - INFO - Training accuracy: 0.701937
+2026-04-01 02:34:26,673 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:34:28,588 - Model - INFO - eval mean loss: 0.428127
+2026-04-01 02:34:28,588 - Model - INFO - eval point accuracy: 0.702438
+2026-04-01 02:34:28,588 - Model - INFO - eval point avg class IoU: 0.482494
+2026-04-01 02:34:28,588 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.657 
+class wound_bed      IoU: 0.308 
+
+2026-04-01 02:34:28,588 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:34:28,588 - Model - INFO - **** Epoch 85 (85/200) ****
+2026-04-01 02:35:12,542 - Model - INFO - Training mean loss: 0.392459
+2026-04-01 02:35:12,542 - Model - INFO - Training accuracy: 0.702208
+2026-04-01 02:35:12,542 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:35:14,499 - Model - INFO - eval mean loss: 0.426131
+2026-04-01 02:35:14,499 - Model - INFO - eval point accuracy: 0.691594
+2026-04-01 02:35:14,499 - Model - INFO - eval point avg class IoU: 0.473838
+2026-04-01 02:35:14,499 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.644 
+class wound_bed      IoU: 0.304 
+
+2026-04-01 02:35:14,499 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:35:14,499 - Model - INFO - **** Epoch 86 (86/200) ****
+2026-04-01 02:35:58,326 - Model - INFO - Training mean loss: 0.392738
+2026-04-01 02:35:58,326 - Model - INFO - Training accuracy: 0.700937
+2026-04-01 02:35:58,326 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:36:00,263 - Model - INFO - eval mean loss: 0.430917
+2026-04-01 02:36:00,263 - Model - INFO - eval point accuracy: 0.724747
+2026-04-01 02:36:00,263 - Model - INFO - eval point avg class IoU: 0.502229
+2026-04-01 02:36:00,263 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.684 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 02:36:00,263 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:36:00,264 - Model - INFO - **** Epoch 87 (87/200) ****
+2026-04-01 02:36:44,120 - Model - INFO - Training mean loss: 0.392960
+2026-04-01 02:36:44,120 - Model - INFO - Training accuracy: 0.703294
+2026-04-01 02:36:44,120 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:36:46,028 - Model - INFO - eval mean loss: 0.428119
+2026-04-01 02:36:46,028 - Model - INFO - eval point accuracy: 0.717082
+2026-04-01 02:36:46,028 - Model - INFO - eval point avg class IoU: 0.495181
+2026-04-01 02:36:46,028 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.675 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 02:36:46,028 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:36:46,028 - Model - INFO - **** Epoch 88 (88/200) ****
+2026-04-01 02:37:29,634 - Model - INFO - Training mean loss: 0.392057
+2026-04-01 02:37:29,634 - Model - INFO - Training accuracy: 0.702149
+2026-04-01 02:37:29,634 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:37:31,560 - Model - INFO - eval mean loss: 0.419408
+2026-04-01 02:37:31,560 - Model - INFO - eval point accuracy: 0.695521
+2026-04-01 02:37:31,560 - Model - INFO - eval point avg class IoU: 0.477072
+2026-04-01 02:37:31,561 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.648 
+class wound_bed      IoU: 0.306 
+
+2026-04-01 02:37:31,561 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:37:31,561 - Model - INFO - **** Epoch 89 (89/200) ****
+2026-04-01 02:38:15,525 - Model - INFO - Training mean loss: 0.391704
+2026-04-01 02:38:15,525 - Model - INFO - Training accuracy: 0.701972
+2026-04-01 02:38:15,525 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:38:17,399 - Model - INFO - eval mean loss: 0.429831
+2026-04-01 02:38:17,399 - Model - INFO - eval point accuracy: 0.716359
+2026-04-01 02:38:17,399 - Model - INFO - eval point avg class IoU: 0.494653
+2026-04-01 02:38:17,399 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.674 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 02:38:17,399 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:38:17,399 - Model - INFO - **** Epoch 90 (90/200) ****
+2026-04-01 02:39:01,082 - Model - INFO - Training mean loss: 0.392645
+2026-04-01 02:39:01,083 - Model - INFO - Training accuracy: 0.702451
+2026-04-01 02:39:01,083 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:39:03,010 - Model - INFO - eval mean loss: 0.437340
+2026-04-01 02:39:03,010 - Model - INFO - eval point accuracy: 0.725739
+2026-04-01 02:39:03,010 - Model - INFO - eval point avg class IoU: 0.502601
+2026-04-01 02:39:03,010 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.685 
+class wound_bed      IoU: 0.320 
+
+2026-04-01 02:39:03,011 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:39:03,011 - Model - INFO - **** Epoch 91 (91/200) ****
+2026-04-01 02:39:46,662 - Model - INFO - Training mean loss: 0.391846
+2026-04-01 02:39:46,662 - Model - INFO - Training accuracy: 0.702319
+2026-04-01 02:39:46,662 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:39:48,579 - Model - INFO - eval mean loss: 0.428040
+2026-04-01 02:39:48,579 - Model - INFO - eval point accuracy: 0.720556
+2026-04-01 02:39:48,579 - Model - INFO - eval point avg class IoU: 0.498639
+2026-04-01 02:39:48,579 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.679 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 02:39:48,579 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:39:48,579 - Model - INFO - **** Epoch 92 (92/200) ****
+2026-04-01 02:40:32,312 - Model - INFO - Training mean loss: 0.391632
+2026-04-01 02:40:32,312 - Model - INFO - Training accuracy: 0.703063
+2026-04-01 02:40:32,313 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:40:34,250 - Model - INFO - eval mean loss: 0.432398
+2026-04-01 02:40:34,250 - Model - INFO - eval point accuracy: 0.718918
+2026-04-01 02:40:34,250 - Model - INFO - eval point avg class IoU: 0.496357
+2026-04-01 02:40:34,250 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.677 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 02:40:34,250 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:40:34,250 - Model - INFO - **** Epoch 93 (93/200) ****
+2026-04-01 02:41:18,033 - Model - INFO - Training mean loss: 0.391846
+2026-04-01 02:41:18,033 - Model - INFO - Training accuracy: 0.701788
+2026-04-01 02:41:18,033 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:41:19,962 - Model - INFO - eval mean loss: 0.424945
+2026-04-01 02:41:19,962 - Model - INFO - eval point accuracy: 0.696111
+2026-04-01 02:41:19,962 - Model - INFO - eval point avg class IoU: 0.477451
+2026-04-01 02:41:19,962 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.649 
+class wound_bed      IoU: 0.306 
+
+2026-04-01 02:41:19,962 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:41:19,962 - Model - INFO - **** Epoch 94 (94/200) ****
+2026-04-01 02:42:03,656 - Model - INFO - Training mean loss: 0.391615
+2026-04-01 02:42:03,656 - Model - INFO - Training accuracy: 0.702776
+2026-04-01 02:42:03,656 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:42:05,586 - Model - INFO - eval mean loss: 0.424449
+2026-04-01 02:42:05,586 - Model - INFO - eval point accuracy: 0.702393
+2026-04-01 02:42:05,586 - Model - INFO - eval point avg class IoU: 0.483067
+2026-04-01 02:42:05,586 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.657 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 02:42:05,586 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:42:05,586 - Model - INFO - **** Epoch 95 (95/200) ****
+2026-04-01 02:42:49,130 - Model - INFO - Training mean loss: 0.391178
+2026-04-01 02:42:49,130 - Model - INFO - Training accuracy: 0.703142
+2026-04-01 02:42:49,131 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:42:51,061 - Model - INFO - eval mean loss: 0.423461
+2026-04-01 02:42:51,061 - Model - INFO - eval point accuracy: 0.714935
+2026-04-01 02:42:51,061 - Model - INFO - eval point avg class IoU: 0.494255
+2026-04-01 02:42:51,061 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.671 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 02:42:51,061 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:42:51,061 - Model - INFO - **** Epoch 96 (96/200) ****
+2026-04-01 02:43:34,672 - Model - INFO - Training mean loss: 0.391452
+2026-04-01 02:43:34,673 - Model - INFO - Training accuracy: 0.702671
+2026-04-01 02:43:34,673 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:43:36,601 - Model - INFO - eval mean loss: 0.427063
+2026-04-01 02:43:36,601 - Model - INFO - eval point accuracy: 0.706914
+2026-04-01 02:43:36,602 - Model - INFO - eval point avg class IoU: 0.486565
+2026-04-01 02:43:36,602 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.662 
+class wound_bed      IoU: 0.311 
+
+2026-04-01 02:43:36,602 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:43:36,602 - Model - INFO - **** Epoch 97 (97/200) ****
+2026-04-01 02:44:20,505 - Model - INFO - Training mean loss: 0.391845
+2026-04-01 02:44:20,505 - Model - INFO - Training accuracy: 0.702630
+2026-04-01 02:44:20,505 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:44:22,424 - Model - INFO - eval mean loss: 0.424302
+2026-04-01 02:44:22,424 - Model - INFO - eval point accuracy: 0.721319
+2026-04-01 02:44:22,424 - Model - INFO - eval point avg class IoU: 0.500056
+2026-04-01 02:44:22,424 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.679 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 02:44:22,424 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:44:22,424 - Model - INFO - **** Epoch 98 (98/200) ****
+2026-04-01 02:45:05,995 - Model - INFO - Training mean loss: 0.391077
+2026-04-01 02:45:05,996 - Model - INFO - Training accuracy: 0.702382
+2026-04-01 02:45:05,996 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:45:07,926 - Model - INFO - eval mean loss: 0.423516
+2026-04-01 02:45:07,926 - Model - INFO - eval point accuracy: 0.697540
+2026-04-01 02:45:07,926 - Model - INFO - eval point avg class IoU: 0.479156
+2026-04-01 02:45:07,926 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.651 
+class wound_bed      IoU: 0.308 
+
+2026-04-01 02:45:07,926 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:45:07,926 - Model - INFO - **** Epoch 99 (99/200) ****
+2026-04-01 02:45:51,689 - Model - INFO - Training mean loss: 0.391362
+2026-04-01 02:45:51,689 - Model - INFO - Training accuracy: 0.702657
+2026-04-01 02:45:51,689 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:45:53,626 - Model - INFO - eval mean loss: 0.424332
+2026-04-01 02:45:53,626 - Model - INFO - eval point accuracy: 0.712250
+2026-04-01 02:45:53,626 - Model - INFO - eval point avg class IoU: 0.491503
+2026-04-01 02:45:53,626 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.668 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 02:45:53,626 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:45:53,626 - Model - INFO - **** Epoch 100 (100/200) ****
+2026-04-01 02:46:37,290 - Model - INFO - Training mean loss: 0.390469
+2026-04-01 02:46:37,290 - Model - INFO - Training accuracy: 0.703393
+2026-04-01 02:46:37,290 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:46:39,226 - Model - INFO - eval mean loss: 0.422005
+2026-04-01 02:46:39,226 - Model - INFO - eval point accuracy: 0.708176
+2026-04-01 02:46:39,226 - Model - INFO - eval point avg class IoU: 0.487500
+2026-04-01 02:46:39,226 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.664 
+class wound_bed      IoU: 0.311 
+
+2026-04-01 02:46:39,226 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:46:39,226 - Model - INFO - **** Epoch 101 (101/200) ****
+2026-04-01 02:47:22,805 - Model - INFO - Training mean loss: 0.391089
+2026-04-01 02:47:22,805 - Model - INFO - Training accuracy: 0.702311
+2026-04-01 02:47:22,805 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:47:24,751 - Model - INFO - eval mean loss: 0.427840
+2026-04-01 02:47:24,752 - Model - INFO - eval point accuracy: 0.707891
+2026-04-01 02:47:24,752 - Model - INFO - eval point avg class IoU: 0.487219
+2026-04-01 02:47:24,752 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.664 
+class wound_bed      IoU: 0.311 
+
+2026-04-01 02:47:24,752 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:47:24,752 - Model - INFO - **** Epoch 102 (102/200) ****
+2026-04-01 02:48:08,654 - Model - INFO - Training mean loss: 0.392326
+2026-04-01 02:48:08,654 - Model - INFO - Training accuracy: 0.702934
+2026-04-01 02:48:08,654 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:48:10,592 - Model - INFO - eval mean loss: 0.436461
+2026-04-01 02:48:10,593 - Model - INFO - eval point accuracy: 0.724848
+2026-04-01 02:48:10,593 - Model - INFO - eval point avg class IoU: 0.501889
+2026-04-01 02:48:10,593 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.684 
+class wound_bed      IoU: 0.320 
+
+2026-04-01 02:48:10,593 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:48:10,593 - Model - INFO - **** Epoch 103 (103/200) ****
+2026-04-01 02:48:54,491 - Model - INFO - Training mean loss: 0.391948
+2026-04-01 02:48:54,491 - Model - INFO - Training accuracy: 0.702768
+2026-04-01 02:48:54,492 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:48:56,428 - Model - INFO - eval mean loss: 0.424775
+2026-04-01 02:48:56,428 - Model - INFO - eval point accuracy: 0.711919
+2026-04-01 02:48:56,428 - Model - INFO - eval point avg class IoU: 0.490963
+2026-04-01 02:48:56,428 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.668 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 02:48:56,428 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:48:56,428 - Model - INFO - **** Epoch 104 (104/200) ****
+2026-04-01 02:49:40,094 - Model - INFO - Training mean loss: 0.391043
+2026-04-01 02:49:40,094 - Model - INFO - Training accuracy: 0.703402
+2026-04-01 02:49:40,094 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:49:42,028 - Model - INFO - eval mean loss: 0.421872
+2026-04-01 02:49:42,029 - Model - INFO - eval point accuracy: 0.710546
+2026-04-01 02:49:42,029 - Model - INFO - eval point avg class IoU: 0.490489
+2026-04-01 02:49:42,029 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 02:49:42,029 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:49:42,029 - Model - INFO - **** Epoch 105 (105/200) ****
+2026-04-01 02:50:25,786 - Model - INFO - Training mean loss: 0.391248
+2026-04-01 02:50:25,786 - Model - INFO - Training accuracy: 0.702970
+2026-04-01 02:50:25,786 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:50:27,719 - Model - INFO - eval mean loss: 0.427825
+2026-04-01 02:50:27,719 - Model - INFO - eval point accuracy: 0.703466
+2026-04-01 02:50:27,719 - Model - INFO - eval point avg class IoU: 0.483083
+2026-04-01 02:50:27,719 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.658 
+class wound_bed      IoU: 0.308 
+
+2026-04-01 02:50:27,719 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:50:27,719 - Model - INFO - **** Epoch 106 (106/200) ****
+2026-04-01 02:51:11,361 - Model - INFO - Training mean loss: 0.392379
+2026-04-01 02:51:11,361 - Model - INFO - Training accuracy: 0.702306
+2026-04-01 02:51:11,361 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:51:13,287 - Model - INFO - eval mean loss: 0.422281
+2026-04-01 02:51:13,287 - Model - INFO - eval point accuracy: 0.710459
+2026-04-01 02:51:13,287 - Model - INFO - eval point avg class IoU: 0.490889
+2026-04-01 02:51:13,287 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 02:51:13,287 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:51:13,287 - Model - INFO - **** Epoch 107 (107/200) ****
+2026-04-01 02:51:56,918 - Model - INFO - Training mean loss: 0.390690
+2026-04-01 02:51:56,918 - Model - INFO - Training accuracy: 0.703218
+2026-04-01 02:51:56,918 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:51:58,851 - Model - INFO - eval mean loss: 0.426156
+2026-04-01 02:51:58,851 - Model - INFO - eval point accuracy: 0.704330
+2026-04-01 02:51:58,851 - Model - INFO - eval point avg class IoU: 0.484362
+2026-04-01 02:51:58,851 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.659 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 02:51:58,851 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:51:58,851 - Model - INFO - **** Epoch 108 (108/200) ****
+2026-04-01 02:52:42,526 - Model - INFO - Training mean loss: 0.391325
+2026-04-01 02:52:42,526 - Model - INFO - Training accuracy: 0.703288
+2026-04-01 02:52:42,526 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:52:44,450 - Model - INFO - eval mean loss: 0.422052
+2026-04-01 02:52:44,450 - Model - INFO - eval point accuracy: 0.701004
+2026-04-01 02:52:44,450 - Model - INFO - eval point avg class IoU: 0.482529
+2026-04-01 02:52:44,450 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.654 
+class wound_bed      IoU: 0.311 
+
+2026-04-01 02:52:44,450 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:52:44,450 - Model - INFO - **** Epoch 109 (109/200) ****
+2026-04-01 02:53:28,171 - Model - INFO - Training mean loss: 0.390789
+2026-04-01 02:53:28,171 - Model - INFO - Training accuracy: 0.703366
+2026-04-01 02:53:28,171 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:53:30,090 - Model - INFO - eval mean loss: 0.429541
+2026-04-01 02:53:30,090 - Model - INFO - eval point accuracy: 0.720576
+2026-04-01 02:53:30,090 - Model - INFO - eval point avg class IoU: 0.498131
+2026-04-01 02:53:30,090 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.679 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 02:53:30,090 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:53:30,090 - Model - INFO - **** Epoch 110 (110/200) ****
+2026-04-01 02:54:13,797 - Model - INFO - Training mean loss: 0.391667
+2026-04-01 02:54:13,797 - Model - INFO - Training accuracy: 0.702197
+2026-04-01 02:54:13,797 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:54:15,719 - Model - INFO - eval mean loss: 0.424544
+2026-04-01 02:54:15,719 - Model - INFO - eval point accuracy: 0.708801
+2026-04-01 02:54:15,719 - Model - INFO - eval point avg class IoU: 0.489060
+2026-04-01 02:54:15,719 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.664 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 02:54:15,719 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:54:15,719 - Model - INFO - **** Epoch 111 (111/200) ****
+2026-04-01 02:54:59,463 - Model - INFO - Training mean loss: 0.390037
+2026-04-01 02:54:59,463 - Model - INFO - Training accuracy: 0.703676
+2026-04-01 02:54:59,464 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:55:01,404 - Model - INFO - eval mean loss: 0.433892
+2026-04-01 02:55:01,404 - Model - INFO - eval point accuracy: 0.715541
+2026-04-01 02:55:01,404 - Model - INFO - eval point avg class IoU: 0.493569
+2026-04-01 02:55:01,404 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.673 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 02:55:01,404 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:55:01,404 - Model - INFO - **** Epoch 112 (112/200) ****
+2026-04-01 02:55:45,276 - Model - INFO - Training mean loss: 0.391182
+2026-04-01 02:55:45,276 - Model - INFO - Training accuracy: 0.701868
+2026-04-01 02:55:45,276 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:55:47,207 - Model - INFO - eval mean loss: 0.421077
+2026-04-01 02:55:47,207 - Model - INFO - eval point accuracy: 0.708674
+2026-04-01 02:55:47,207 - Model - INFO - eval point avg class IoU: 0.489024
+2026-04-01 02:55:47,207 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.664 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 02:55:47,207 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:55:47,207 - Model - INFO - **** Epoch 113 (113/200) ****
+2026-04-01 02:56:30,920 - Model - INFO - Training mean loss: 0.391708
+2026-04-01 02:56:30,920 - Model - INFO - Training accuracy: 0.702878
+2026-04-01 02:56:30,921 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:56:32,852 - Model - INFO - eval mean loss: 0.432222
+2026-04-01 02:56:32,852 - Model - INFO - eval point accuracy: 0.726283
+2026-04-01 02:56:32,852 - Model - INFO - eval point avg class IoU: 0.503892
+2026-04-01 02:56:32,852 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.685 
+class wound_bed      IoU: 0.323 
+
+2026-04-01 02:56:32,852 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:56:32,852 - Model - INFO - **** Epoch 114 (114/200) ****
+2026-04-01 02:57:16,519 - Model - INFO - Training mean loss: 0.391743
+2026-04-01 02:57:16,519 - Model - INFO - Training accuracy: 0.703349
+2026-04-01 02:57:16,519 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:57:18,437 - Model - INFO - eval mean loss: 0.429709
+2026-04-01 02:57:18,437 - Model - INFO - eval point accuracy: 0.713476
+2026-04-01 02:57:18,437 - Model - INFO - eval point avg class IoU: 0.492756
+2026-04-01 02:57:18,437 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.670 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 02:57:18,437 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:57:18,437 - Model - INFO - **** Epoch 115 (115/200) ****
+2026-04-01 02:58:02,167 - Model - INFO - Training mean loss: 0.391150
+2026-04-01 02:58:02,167 - Model - INFO - Training accuracy: 0.702449
+2026-04-01 02:58:02,167 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:58:04,095 - Model - INFO - eval mean loss: 0.419657
+2026-04-01 02:58:04,095 - Model - INFO - eval point accuracy: 0.700231
+2026-04-01 02:58:04,095 - Model - INFO - eval point avg class IoU: 0.480901
+2026-04-01 02:58:04,095 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.654 
+class wound_bed      IoU: 0.308 
+
+2026-04-01 02:58:04,095 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:58:04,095 - Model - INFO - **** Epoch 116 (116/200) ****
+2026-04-01 02:58:47,784 - Model - INFO - Training mean loss: 0.391254
+2026-04-01 02:58:47,784 - Model - INFO - Training accuracy: 0.703444
+2026-04-01 02:58:47,784 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:58:49,718 - Model - INFO - eval mean loss: 0.431155
+2026-04-01 02:58:49,718 - Model - INFO - eval point accuracy: 0.726837
+2026-04-01 02:58:49,718 - Model - INFO - eval point avg class IoU: 0.504047
+2026-04-01 02:58:49,718 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.686 
+class wound_bed      IoU: 0.322 
+
+2026-04-01 02:58:49,718 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:58:49,718 - Model - INFO - **** Epoch 117 (117/200) ****
+2026-04-01 02:59:33,409 - Model - INFO - Training mean loss: 0.390191
+2026-04-01 02:59:33,409 - Model - INFO - Training accuracy: 0.703728
+2026-04-01 02:59:33,409 - Model - INFO - ---- EVALUATION ----
+2026-04-01 02:59:35,345 - Model - INFO - eval mean loss: 0.423408
+2026-04-01 02:59:35,345 - Model - INFO - eval point accuracy: 0.713384
+2026-04-01 02:59:35,345 - Model - INFO - eval point avg class IoU: 0.492624
+2026-04-01 02:59:35,345 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.670 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 02:59:35,345 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 02:59:35,345 - Model - INFO - **** Epoch 118 (118/200) ****
+2026-04-01 03:00:19,152 - Model - INFO - Training mean loss: 0.391631
+2026-04-01 03:00:19,152 - Model - INFO - Training accuracy: 0.702148
+2026-04-01 03:00:19,152 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:00:21,077 - Model - INFO - eval mean loss: 0.422656
+2026-04-01 03:00:21,077 - Model - INFO - eval point accuracy: 0.711436
+2026-04-01 03:00:21,077 - Model - INFO - eval point avg class IoU: 0.490961
+2026-04-01 03:00:21,077 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.667 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:00:21,077 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:00:21,077 - Model - INFO - **** Epoch 119 (119/200) ****
+2026-04-01 03:01:04,819 - Model - INFO - Training mean loss: 0.391507
+2026-04-01 03:01:04,819 - Model - INFO - Training accuracy: 0.703354
+2026-04-01 03:01:04,819 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:01:06,741 - Model - INFO - eval mean loss: 0.431010
+2026-04-01 03:01:06,741 - Model - INFO - eval point accuracy: 0.724284
+2026-04-01 03:01:06,741 - Model - INFO - eval point avg class IoU: 0.501629
+2026-04-01 03:01:06,741 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.683 
+class wound_bed      IoU: 0.320 
+
+2026-04-01 03:01:06,741 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:01:06,741 - Model - INFO - **** Epoch 120 (120/200) ****
+2026-04-01 03:01:50,547 - Model - INFO - Training mean loss: 0.391486
+2026-04-01 03:01:50,547 - Model - INFO - Training accuracy: 0.702120
+2026-04-01 03:01:50,547 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:01:52,489 - Model - INFO - eval mean loss: 0.426603
+2026-04-01 03:01:52,489 - Model - INFO - eval point accuracy: 0.706050
+2026-04-01 03:01:52,489 - Model - INFO - eval point avg class IoU: 0.485661
+2026-04-01 03:01:52,489 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.661 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 03:01:52,489 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:01:52,489 - Model - INFO - **** Epoch 121 (121/200) ****
+2026-04-01 03:02:36,200 - Model - INFO - Training mean loss: 0.391020
+2026-04-01 03:02:36,200 - Model - INFO - Training accuracy: 0.703815
+2026-04-01 03:02:36,200 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:02:38,137 - Model - INFO - eval mean loss: 0.426706
+2026-04-01 03:02:38,137 - Model - INFO - eval point accuracy: 0.707815
+2026-04-01 03:02:38,137 - Model - INFO - eval point avg class IoU: 0.488493
+2026-04-01 03:02:38,137 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.663 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:02:38,137 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:02:38,137 - Model - INFO - **** Epoch 122 (122/200) ****
+2026-04-01 03:03:21,931 - Model - INFO - Training mean loss: 0.391246
+2026-04-01 03:03:21,931 - Model - INFO - Training accuracy: 0.703028
+2026-04-01 03:03:21,931 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:03:23,856 - Model - INFO - eval mean loss: 0.424624
+2026-04-01 03:03:23,857 - Model - INFO - eval point accuracy: 0.705841
+2026-04-01 03:03:23,857 - Model - INFO - eval point avg class IoU: 0.485334
+2026-04-01 03:03:23,857 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.661 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 03:03:23,857 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:03:23,857 - Model - INFO - **** Epoch 123 (123/200) ****
+2026-04-01 03:04:07,526 - Model - INFO - Training mean loss: 0.390700
+2026-04-01 03:04:07,526 - Model - INFO - Training accuracy: 0.703749
+2026-04-01 03:04:07,527 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:04:09,464 - Model - INFO - eval mean loss: 0.431812
+2026-04-01 03:04:09,464 - Model - INFO - eval point accuracy: 0.725555
+2026-04-01 03:04:09,464 - Model - INFO - eval point avg class IoU: 0.502104
+2026-04-01 03:04:09,464 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.685 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 03:04:09,464 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:04:09,464 - Model - INFO - **** Epoch 124 (124/200) ****
+2026-04-01 03:04:53,176 - Model - INFO - Training mean loss: 0.390791
+2026-04-01 03:04:53,176 - Model - INFO - Training accuracy: 0.703806
+2026-04-01 03:04:53,177 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:04:55,104 - Model - INFO - eval mean loss: 0.436056
+2026-04-01 03:04:55,104 - Model - INFO - eval point accuracy: 0.728022
+2026-04-01 03:04:55,104 - Model - INFO - eval point avg class IoU: 0.504549
+2026-04-01 03:04:55,104 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.688 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 03:04:55,104 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:04:55,104 - Model - INFO - **** Epoch 125 (125/200) ****
+2026-04-01 03:05:38,857 - Model - INFO - Training mean loss: 0.391475
+2026-04-01 03:05:38,857 - Model - INFO - Training accuracy: 0.702464
+2026-04-01 03:05:38,857 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:05:40,791 - Model - INFO - eval mean loss: 0.425293
+2026-04-01 03:05:40,791 - Model - INFO - eval point accuracy: 0.705119
+2026-04-01 03:05:40,791 - Model - INFO - eval point avg class IoU: 0.485098
+2026-04-01 03:05:40,791 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.660 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 03:05:40,791 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:05:40,791 - Model - INFO - **** Epoch 126 (126/200) ****
+2026-04-01 03:06:24,538 - Model - INFO - Training mean loss: 0.390834
+2026-04-01 03:06:24,538 - Model - INFO - Training accuracy: 0.703702
+2026-04-01 03:06:24,538 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:06:26,480 - Model - INFO - eval mean loss: 0.431491
+2026-04-01 03:06:26,481 - Model - INFO - eval point accuracy: 0.725042
+2026-04-01 03:06:26,481 - Model - INFO - eval point avg class IoU: 0.502612
+2026-04-01 03:06:26,481 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.684 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 03:06:26,481 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:06:26,481 - Model - INFO - **** Epoch 127 (127/200) ****
+2026-04-01 03:07:10,134 - Model - INFO - Training mean loss: 0.391112
+2026-04-01 03:07:10,134 - Model - INFO - Training accuracy: 0.703462
+2026-04-01 03:07:10,134 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:07:12,067 - Model - INFO - eval mean loss: 0.432646
+2026-04-01 03:07:12,068 - Model - INFO - eval point accuracy: 0.725098
+2026-04-01 03:07:12,068 - Model - INFO - eval point avg class IoU: 0.502746
+2026-04-01 03:07:12,068 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.684 
+class wound_bed      IoU: 0.322 
+
+2026-04-01 03:07:12,068 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:07:12,068 - Model - INFO - **** Epoch 128 (128/200) ****
+2026-04-01 03:07:55,711 - Model - INFO - Training mean loss: 0.391848
+2026-04-01 03:07:55,711 - Model - INFO - Training accuracy: 0.703495
+2026-04-01 03:07:55,711 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:07:57,651 - Model - INFO - eval mean loss: 0.423797
+2026-04-01 03:07:57,652 - Model - INFO - eval point accuracy: 0.708206
+2026-04-01 03:07:57,652 - Model - INFO - eval point avg class IoU: 0.487661
+2026-04-01 03:07:57,652 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.664 
+class wound_bed      IoU: 0.311 
+
+2026-04-01 03:07:57,652 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:07:57,652 - Model - INFO - **** Epoch 129 (129/200) ****
+2026-04-01 03:08:41,325 - Model - INFO - Training mean loss: 0.390846
+2026-04-01 03:08:41,325 - Model - INFO - Training accuracy: 0.703238
+2026-04-01 03:08:41,325 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:08:43,251 - Model - INFO - eval mean loss: 0.424724
+2026-04-01 03:08:43,251 - Model - INFO - eval point accuracy: 0.705917
+2026-04-01 03:08:43,251 - Model - INFO - eval point avg class IoU: 0.486547
+2026-04-01 03:08:43,251 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.661 
+class wound_bed      IoU: 0.313 
+
+2026-04-01 03:08:43,251 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:08:43,251 - Model - INFO - **** Epoch 130 (130/200) ****
+2026-04-01 03:09:26,932 - Model - INFO - Training mean loss: 0.390574
+2026-04-01 03:09:26,932 - Model - INFO - Training accuracy: 0.703151
+2026-04-01 03:09:26,932 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:09:28,857 - Model - INFO - eval mean loss: 0.427484
+2026-04-01 03:09:28,857 - Model - INFO - eval point accuracy: 0.721090
+2026-04-01 03:09:28,857 - Model - INFO - eval point avg class IoU: 0.498417
+2026-04-01 03:09:28,857 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.680 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:09:28,857 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:09:28,857 - Model - INFO - **** Epoch 131 (131/200) ****
+2026-04-01 03:10:12,517 - Model - INFO - Training mean loss: 0.390636
+2026-04-01 03:10:12,518 - Model - INFO - Training accuracy: 0.703514
+2026-04-01 03:10:12,518 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:10:14,456 - Model - INFO - eval mean loss: 0.426898
+2026-04-01 03:10:14,456 - Model - INFO - eval point accuracy: 0.714788
+2026-04-01 03:10:14,456 - Model - INFO - eval point avg class IoU: 0.493944
+2026-04-01 03:10:14,456 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.671 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:10:14,456 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:10:14,456 - Model - INFO - **** Epoch 132 (132/200) ****
+2026-04-01 03:10:58,399 - Model - INFO - Training mean loss: 0.391039
+2026-04-01 03:10:58,399 - Model - INFO - Training accuracy: 0.703679
+2026-04-01 03:10:58,400 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:11:00,341 - Model - INFO - eval mean loss: 0.423350
+2026-04-01 03:11:00,341 - Model - INFO - eval point accuracy: 0.726064
+2026-04-01 03:11:00,341 - Model - INFO - eval point avg class IoU: 0.504521
+2026-04-01 03:11:00,341 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.685 
+class wound_bed      IoU: 0.324 
+
+2026-04-01 03:11:00,341 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:11:00,341 - Model - INFO - **** Epoch 133 (133/200) ****
+2026-04-01 03:11:43,971 - Model - INFO - Training mean loss: 0.391182
+2026-04-01 03:11:43,971 - Model - INFO - Training accuracy: 0.702902
+2026-04-01 03:11:43,971 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:11:45,892 - Model - INFO - eval mean loss: 0.432480
+2026-04-01 03:11:45,892 - Model - INFO - eval point accuracy: 0.722829
+2026-04-01 03:11:45,892 - Model - INFO - eval point avg class IoU: 0.500192
+2026-04-01 03:11:45,892 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.681 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 03:11:45,892 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:11:45,892 - Model - INFO - **** Epoch 134 (134/200) ****
+2026-04-01 03:12:29,617 - Model - INFO - Training mean loss: 0.391107
+2026-04-01 03:12:29,617 - Model - INFO - Training accuracy: 0.702943
+2026-04-01 03:12:29,617 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:12:31,557 - Model - INFO - eval mean loss: 0.424930
+2026-04-01 03:12:31,557 - Model - INFO - eval point accuracy: 0.712026
+2026-04-01 03:12:31,557 - Model - INFO - eval point avg class IoU: 0.491243
+2026-04-01 03:12:31,557 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.668 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:12:31,557 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:12:31,557 - Model - INFO - **** Epoch 135 (135/200) ****
+2026-04-01 03:13:15,217 - Model - INFO - Training mean loss: 0.390688
+2026-04-01 03:13:15,217 - Model - INFO - Training accuracy: 0.703411
+2026-04-01 03:13:15,217 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:13:17,138 - Model - INFO - eval mean loss: 0.427500
+2026-04-01 03:13:17,139 - Model - INFO - eval point accuracy: 0.713664
+2026-04-01 03:13:17,139 - Model - INFO - eval point avg class IoU: 0.492612
+2026-04-01 03:13:17,139 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.670 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:13:17,139 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:13:17,139 - Model - INFO - **** Epoch 136 (136/200) ****
+2026-04-01 03:14:00,692 - Model - INFO - Training mean loss: 0.390986
+2026-04-01 03:14:00,693 - Model - INFO - Training accuracy: 0.703733
+2026-04-01 03:14:00,693 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:14:02,621 - Model - INFO - eval mean loss: 0.428670
+2026-04-01 03:14:02,621 - Model - INFO - eval point accuracy: 0.722946
+2026-04-01 03:14:02,621 - Model - INFO - eval point avg class IoU: 0.500829
+2026-04-01 03:14:02,621 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.681 
+class wound_bed      IoU: 0.320 
+
+2026-04-01 03:14:02,621 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:14:02,621 - Model - INFO - **** Epoch 137 (137/200) ****
+2026-04-01 03:14:46,296 - Model - INFO - Training mean loss: 0.391373
+2026-04-01 03:14:46,296 - Model - INFO - Training accuracy: 0.703158
+2026-04-01 03:14:46,296 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:14:48,225 - Model - INFO - eval mean loss: 0.423472
+2026-04-01 03:14:48,225 - Model - INFO - eval point accuracy: 0.710790
+2026-04-01 03:14:48,225 - Model - INFO - eval point avg class IoU: 0.490187
+2026-04-01 03:14:48,225 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.667 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:14:48,225 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:14:48,225 - Model - INFO - **** Epoch 138 (138/200) ****
+2026-04-01 03:15:31,916 - Model - INFO - Training mean loss: 0.390571
+2026-04-01 03:15:31,916 - Model - INFO - Training accuracy: 0.703842
+2026-04-01 03:15:31,916 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:15:33,851 - Model - INFO - eval mean loss: 0.432736
+2026-04-01 03:15:33,851 - Model - INFO - eval point accuracy: 0.723684
+2026-04-01 03:15:33,851 - Model - INFO - eval point avg class IoU: 0.501474
+2026-04-01 03:15:33,851 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.682 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 03:15:33,851 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:15:33,852 - Model - INFO - **** Epoch 139 (139/200) ****
+2026-04-01 03:16:17,695 - Model - INFO - Training mean loss: 0.390432
+2026-04-01 03:16:17,695 - Model - INFO - Training accuracy: 0.703981
+2026-04-01 03:16:17,695 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:16:19,638 - Model - INFO - eval mean loss: 0.430246
+2026-04-01 03:16:19,638 - Model - INFO - eval point accuracy: 0.712301
+2026-04-01 03:16:19,638 - Model - INFO - eval point avg class IoU: 0.490733
+2026-04-01 03:16:19,638 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.669 
+class wound_bed      IoU: 0.312 
+
+2026-04-01 03:16:19,638 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:16:19,638 - Model - INFO - **** Epoch 140 (140/200) ****
+2026-04-01 03:17:03,627 - Model - INFO - Training mean loss: 0.390550
+2026-04-01 03:17:03,627 - Model - INFO - Training accuracy: 0.703145
+2026-04-01 03:17:03,627 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:17:05,558 - Model - INFO - eval mean loss: 0.429879
+2026-04-01 03:17:05,558 - Model - INFO - eval point accuracy: 0.717773
+2026-04-01 03:17:05,558 - Model - INFO - eval point avg class IoU: 0.494744
+2026-04-01 03:17:05,558 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.676 
+class wound_bed      IoU: 0.313 
+
+2026-04-01 03:17:05,558 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:17:05,558 - Model - INFO - **** Epoch 141 (141/200) ****
+2026-04-01 03:17:49,260 - Model - INFO - Training mean loss: 0.390076
+2026-04-01 03:17:49,260 - Model - INFO - Training accuracy: 0.703788
+2026-04-01 03:17:49,260 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:17:51,190 - Model - INFO - eval mean loss: 0.428787
+2026-04-01 03:17:51,190 - Model - INFO - eval point accuracy: 0.721624
+2026-04-01 03:17:51,190 - Model - INFO - eval point avg class IoU: 0.499101
+2026-04-01 03:17:51,190 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.680 
+class wound_bed      IoU: 0.318 
+
+2026-04-01 03:17:51,190 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:17:51,190 - Model - INFO - **** Epoch 142 (142/200) ****
+2026-04-01 03:18:34,908 - Model - INFO - Training mean loss: 0.391494
+2026-04-01 03:18:34,908 - Model - INFO - Training accuracy: 0.703096
+2026-04-01 03:18:34,908 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:18:36,840 - Model - INFO - eval mean loss: 0.427721
+2026-04-01 03:18:36,840 - Model - INFO - eval point accuracy: 0.712621
+2026-04-01 03:18:36,840 - Model - INFO - eval point avg class IoU: 0.490925
+2026-04-01 03:18:36,840 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.669 
+class wound_bed      IoU: 0.312 
+
+2026-04-01 03:18:36,840 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:18:36,841 - Model - INFO - **** Epoch 143 (143/200) ****
+2026-04-01 03:19:20,488 - Model - INFO - Training mean loss: 0.390671
+2026-04-01 03:19:20,488 - Model - INFO - Training accuracy: 0.703466
+2026-04-01 03:19:20,489 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:19:22,412 - Model - INFO - eval mean loss: 0.431999
+2026-04-01 03:19:22,412 - Model - INFO - eval point accuracy: 0.721573
+2026-04-01 03:19:22,412 - Model - INFO - eval point avg class IoU: 0.499131
+2026-04-01 03:19:22,412 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.680 
+class wound_bed      IoU: 0.318 
+
+2026-04-01 03:19:22,412 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:19:22,412 - Model - INFO - **** Epoch 144 (144/200) ****
+2026-04-01 03:20:06,000 - Model - INFO - Training mean loss: 0.390390
+2026-04-01 03:20:06,001 - Model - INFO - Training accuracy: 0.703867
+2026-04-01 03:20:06,001 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:20:07,941 - Model - INFO - eval mean loss: 0.422498
+2026-04-01 03:20:07,941 - Model - INFO - eval point accuracy: 0.711517
+2026-04-01 03:20:07,941 - Model - INFO - eval point avg class IoU: 0.491909
+2026-04-01 03:20:07,941 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.667 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:20:07,941 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:20:07,941 - Model - INFO - **** Epoch 145 (145/200) ****
+2026-04-01 03:20:51,674 - Model - INFO - Training mean loss: 0.391009
+2026-04-01 03:20:51,674 - Model - INFO - Training accuracy: 0.703770
+2026-04-01 03:20:51,674 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:20:53,605 - Model - INFO - eval mean loss: 0.422703
+2026-04-01 03:20:53,605 - Model - INFO - eval point accuracy: 0.707575
+2026-04-01 03:20:53,605 - Model - INFO - eval point avg class IoU: 0.488283
+2026-04-01 03:20:53,605 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.662 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:20:53,605 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:20:53,605 - Model - INFO - **** Epoch 146 (146/200) ****
+2026-04-01 03:21:37,344 - Model - INFO - Training mean loss: 0.390837
+2026-04-01 03:21:37,345 - Model - INFO - Training accuracy: 0.704130
+2026-04-01 03:21:37,345 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:21:39,276 - Model - INFO - eval mean loss: 0.425087
+2026-04-01 03:21:39,276 - Model - INFO - eval point accuracy: 0.704722
+2026-04-01 03:21:39,276 - Model - INFO - eval point avg class IoU: 0.484595
+2026-04-01 03:21:39,276 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.660 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 03:21:39,276 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:21:39,276 - Model - INFO - **** Epoch 147 (147/200) ****
+2026-04-01 03:22:22,844 - Model - INFO - Training mean loss: 0.390192
+2026-04-01 03:22:22,844 - Model - INFO - Training accuracy: 0.703155
+2026-04-01 03:22:22,844 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:22:24,768 - Model - INFO - eval mean loss: 0.423463
+2026-04-01 03:22:24,768 - Model - INFO - eval point accuracy: 0.712209
+2026-04-01 03:22:24,768 - Model - INFO - eval point avg class IoU: 0.491801
+2026-04-01 03:22:24,768 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.668 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:22:24,768 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:22:24,768 - Model - INFO - **** Epoch 148 (148/200) ****
+2026-04-01 03:23:08,660 - Model - INFO - Training mean loss: 0.390672
+2026-04-01 03:23:08,660 - Model - INFO - Training accuracy: 0.703601
+2026-04-01 03:23:08,661 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:23:10,594 - Model - INFO - eval mean loss: 0.423962
+2026-04-01 03:23:10,594 - Model - INFO - eval point accuracy: 0.714676
+2026-04-01 03:23:10,594 - Model - INFO - eval point avg class IoU: 0.493385
+2026-04-01 03:23:10,594 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.672 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:23:10,594 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:23:10,594 - Model - INFO - **** Epoch 149 (149/200) ****
+2026-04-01 03:23:54,250 - Model - INFO - Training mean loss: 0.391249
+2026-04-01 03:23:54,250 - Model - INFO - Training accuracy: 0.702858
+2026-04-01 03:23:54,250 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:23:56,182 - Model - INFO - eval mean loss: 0.427904
+2026-04-01 03:23:56,183 - Model - INFO - eval point accuracy: 0.707108
+2026-04-01 03:23:56,183 - Model - INFO - eval point avg class IoU: 0.486860
+2026-04-01 03:23:56,183 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.662 
+class wound_bed      IoU: 0.311 
+
+2026-04-01 03:23:56,183 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:23:56,183 - Model - INFO - **** Epoch 150 (150/200) ****
+2026-04-01 03:24:40,497 - Model - INFO - Training mean loss: 0.391609
+2026-04-01 03:24:40,497 - Model - INFO - Training accuracy: 0.703410
+2026-04-01 03:24:40,497 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:24:42,431 - Model - INFO - eval mean loss: 0.428710
+2026-04-01 03:24:42,431 - Model - INFO - eval point accuracy: 0.719477
+2026-04-01 03:24:42,431 - Model - INFO - eval point avg class IoU: 0.497115
+2026-04-01 03:24:42,431 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.678 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:24:42,431 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:24:42,431 - Model - INFO - **** Epoch 151 (151/200) ****
+2026-04-01 03:25:26,086 - Model - INFO - Training mean loss: 0.390886
+2026-04-01 03:25:26,086 - Model - INFO - Training accuracy: 0.703383
+2026-04-01 03:25:26,086 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:25:28,014 - Model - INFO - eval mean loss: 0.419715
+2026-04-01 03:25:28,014 - Model - INFO - eval point accuracy: 0.710475
+2026-04-01 03:25:28,014 - Model - INFO - eval point avg class IoU: 0.490427
+2026-04-01 03:25:28,014 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:25:28,014 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:25:28,014 - Model - INFO - **** Epoch 152 (152/200) ****
+2026-04-01 03:26:11,751 - Model - INFO - Training mean loss: 0.390702
+2026-04-01 03:26:11,752 - Model - INFO - Training accuracy: 0.703107
+2026-04-01 03:26:11,752 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:26:13,683 - Model - INFO - eval mean loss: 0.424123
+2026-04-01 03:26:13,683 - Model - INFO - eval point accuracy: 0.714274
+2026-04-01 03:26:13,683 - Model - INFO - eval point avg class IoU: 0.493024
+2026-04-01 03:26:13,683 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.671 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:26:13,683 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:26:13,683 - Model - INFO - **** Epoch 153 (153/200) ****
+2026-04-01 03:26:57,363 - Model - INFO - Training mean loss: 0.391082
+2026-04-01 03:26:57,364 - Model - INFO - Training accuracy: 0.703818
+2026-04-01 03:26:57,364 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:26:59,299 - Model - INFO - eval mean loss: 0.429576
+2026-04-01 03:26:59,299 - Model - INFO - eval point accuracy: 0.729660
+2026-04-01 03:26:59,299 - Model - INFO - eval point avg class IoU: 0.506957
+2026-04-01 03:26:59,299 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.689 
+class wound_bed      IoU: 0.325 
+
+2026-04-01 03:26:59,299 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:26:59,299 - Model - INFO - **** Epoch 154 (154/200) ****
+2026-04-01 03:27:43,038 - Model - INFO - Training mean loss: 0.389985
+2026-04-01 03:27:43,038 - Model - INFO - Training accuracy: 0.704015
+2026-04-01 03:27:43,038 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:27:44,961 - Model - INFO - eval mean loss: 0.424253
+2026-04-01 03:27:44,961 - Model - INFO - eval point accuracy: 0.712102
+2026-04-01 03:27:44,961 - Model - INFO - eval point avg class IoU: 0.492176
+2026-04-01 03:27:44,961 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.668 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:27:44,961 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:27:44,961 - Model - INFO - **** Epoch 155 (155/200) ****
+2026-04-01 03:28:28,584 - Model - INFO - Training mean loss: 0.391013
+2026-04-01 03:28:28,584 - Model - INFO - Training accuracy: 0.703329
+2026-04-01 03:28:28,584 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:28:30,508 - Model - INFO - eval mean loss: 0.426159
+2026-04-01 03:28:30,508 - Model - INFO - eval point accuracy: 0.710719
+2026-04-01 03:28:30,508 - Model - INFO - eval point avg class IoU: 0.490024
+2026-04-01 03:28:30,508 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.667 
+class wound_bed      IoU: 0.313 
+
+2026-04-01 03:28:30,508 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:28:30,508 - Model - INFO - **** Epoch 156 (156/200) ****
+2026-04-01 03:29:14,059 - Model - INFO - Training mean loss: 0.391262
+2026-04-01 03:29:14,059 - Model - INFO - Training accuracy: 0.704640
+2026-04-01 03:29:14,059 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:29:15,984 - Model - INFO - eval mean loss: 0.419849
+2026-04-01 03:29:15,984 - Model - INFO - eval point accuracy: 0.709997
+2026-04-01 03:29:15,984 - Model - INFO - eval point avg class IoU: 0.489835
+2026-04-01 03:29:15,984 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:29:15,984 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:29:15,984 - Model - INFO - **** Epoch 157 (157/200) ****
+2026-04-01 03:29:59,508 - Model - INFO - Training mean loss: 0.390003
+2026-04-01 03:29:59,508 - Model - INFO - Training accuracy: 0.703373
+2026-04-01 03:29:59,508 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:30:01,405 - Model - INFO - eval mean loss: 0.432046
+2026-04-01 03:30:01,405 - Model - INFO - eval point accuracy: 0.727214
+2026-04-01 03:30:01,405 - Model - INFO - eval point avg class IoU: 0.504195
+2026-04-01 03:30:01,405 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.687 
+class wound_bed      IoU: 0.322 
+
+2026-04-01 03:30:01,405 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:30:01,405 - Model - INFO - **** Epoch 158 (158/200) ****
+2026-04-01 03:30:44,826 - Model - INFO - Training mean loss: 0.390246
+2026-04-01 03:30:44,826 - Model - INFO - Training accuracy: 0.704241
+2026-04-01 03:30:44,826 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:30:46,763 - Model - INFO - eval mean loss: 0.428303
+2026-04-01 03:30:46,763 - Model - INFO - eval point accuracy: 0.713867
+2026-04-01 03:30:46,763 - Model - INFO - eval point avg class IoU: 0.492312
+2026-04-01 03:30:46,763 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.671 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:30:46,763 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:30:46,763 - Model - INFO - **** Epoch 159 (159/200) ****
+2026-04-01 03:31:30,615 - Model - INFO - Training mean loss: 0.390764
+2026-04-01 03:31:30,616 - Model - INFO - Training accuracy: 0.703722
+2026-04-01 03:31:30,616 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:31:32,545 - Model - INFO - eval mean loss: 0.432967
+2026-04-01 03:31:32,545 - Model - INFO - eval point accuracy: 0.722473
+2026-04-01 03:31:32,545 - Model - INFO - eval point avg class IoU: 0.498792
+2026-04-01 03:31:32,545 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.682 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 03:31:32,545 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:31:32,545 - Model - INFO - **** Epoch 160 (160/200) ****
+2026-04-01 03:32:16,309 - Model - INFO - Training mean loss: 0.390173
+2026-04-01 03:32:16,309 - Model - INFO - Training accuracy: 0.703944
+2026-04-01 03:32:16,309 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:32:18,250 - Model - INFO - eval mean loss: 0.421301
+2026-04-01 03:32:18,250 - Model - INFO - eval point accuracy: 0.703740
+2026-04-01 03:32:18,250 - Model - INFO - eval point avg class IoU: 0.484940
+2026-04-01 03:32:18,250 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.658 
+class wound_bed      IoU: 0.312 
+
+2026-04-01 03:32:18,250 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:32:18,250 - Model - INFO - **** Epoch 161 (161/200) ****
+2026-04-01 03:33:01,947 - Model - INFO - Training mean loss: 0.390643
+2026-04-01 03:33:01,947 - Model - INFO - Training accuracy: 0.704003
+2026-04-01 03:33:01,947 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:33:03,871 - Model - INFO - eval mean loss: 0.427249
+2026-04-01 03:33:03,871 - Model - INFO - eval point accuracy: 0.707570
+2026-04-01 03:33:03,871 - Model - INFO - eval point avg class IoU: 0.486851
+2026-04-01 03:33:03,871 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.663 
+class wound_bed      IoU: 0.310 
+
+2026-04-01 03:33:03,871 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:33:03,871 - Model - INFO - **** Epoch 162 (162/200) ****
+2026-04-01 03:33:47,542 - Model - INFO - Training mean loss: 0.391509
+2026-04-01 03:33:47,542 - Model - INFO - Training accuracy: 0.703655
+2026-04-01 03:33:47,542 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:33:49,480 - Model - INFO - eval mean loss: 0.418771
+2026-04-01 03:33:49,480 - Model - INFO - eval point accuracy: 0.710795
+2026-04-01 03:33:49,480 - Model - INFO - eval point avg class IoU: 0.490615
+2026-04-01 03:33:49,480 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:33:49,480 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:33:49,480 - Model - INFO - **** Epoch 163 (163/200) ****
+2026-04-01 03:34:33,076 - Model - INFO - Training mean loss: 0.390959
+2026-04-01 03:34:33,076 - Model - INFO - Training accuracy: 0.702935
+2026-04-01 03:34:33,076 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:34:34,983 - Model - INFO - eval mean loss: 0.424373
+2026-04-01 03:34:34,983 - Model - INFO - eval point accuracy: 0.710597
+2026-04-01 03:34:34,983 - Model - INFO - eval point avg class IoU: 0.490285
+2026-04-01 03:34:34,983 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:34:34,984 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:34:34,984 - Model - INFO - **** Epoch 164 (164/200) ****
+2026-04-01 03:35:18,602 - Model - INFO - Training mean loss: 0.391062
+2026-04-01 03:35:18,602 - Model - INFO - Training accuracy: 0.704090
+2026-04-01 03:35:18,602 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:35:20,536 - Model - INFO - eval mean loss: 0.428943
+2026-04-01 03:35:20,536 - Model - INFO - eval point accuracy: 0.715469
+2026-04-01 03:35:20,536 - Model - INFO - eval point avg class IoU: 0.493683
+2026-04-01 03:35:20,536 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.673 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:35:20,536 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:35:20,536 - Model - INFO - **** Epoch 165 (165/200) ****
+2026-04-01 03:36:04,232 - Model - INFO - Training mean loss: 0.390727
+2026-04-01 03:36:04,232 - Model - INFO - Training accuracy: 0.703027
+2026-04-01 03:36:04,233 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:36:06,177 - Model - INFO - eval mean loss: 0.424936
+2026-04-01 03:36:06,177 - Model - INFO - eval point accuracy: 0.714081
+2026-04-01 03:36:06,178 - Model - INFO - eval point avg class IoU: 0.493865
+2026-04-01 03:36:06,178 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.670 
+class wound_bed      IoU: 0.318 
+
+2026-04-01 03:36:06,178 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:36:06,178 - Model - INFO - **** Epoch 166 (166/200) ****
+2026-04-01 03:36:49,822 - Model - INFO - Training mean loss: 0.390952
+2026-04-01 03:36:49,822 - Model - INFO - Training accuracy: 0.703921
+2026-04-01 03:36:49,822 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:36:51,761 - Model - INFO - eval mean loss: 0.430668
+2026-04-01 03:36:51,762 - Model - INFO - eval point accuracy: 0.717000
+2026-04-01 03:36:51,762 - Model - INFO - eval point avg class IoU: 0.494404
+2026-04-01 03:36:51,762 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.675 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:36:51,762 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:36:51,762 - Model - INFO - **** Epoch 167 (167/200) ****
+2026-04-01 03:37:35,425 - Model - INFO - Training mean loss: 0.390627
+2026-04-01 03:37:35,425 - Model - INFO - Training accuracy: 0.703394
+2026-04-01 03:37:35,426 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:37:37,367 - Model - INFO - eval mean loss: 0.430163
+2026-04-01 03:37:37,367 - Model - INFO - eval point accuracy: 0.711197
+2026-04-01 03:37:37,367 - Model - INFO - eval point avg class IoU: 0.489319
+2026-04-01 03:37:37,367 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.668 
+class wound_bed      IoU: 0.311 
+
+2026-04-01 03:37:37,368 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:37:37,368 - Model - INFO - **** Epoch 168 (168/200) ****
+2026-04-01 03:38:21,063 - Model - INFO - Training mean loss: 0.390414
+2026-04-01 03:38:21,063 - Model - INFO - Training accuracy: 0.703835
+2026-04-01 03:38:21,063 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:38:22,997 - Model - INFO - eval mean loss: 0.435806
+2026-04-01 03:38:22,997 - Model - INFO - eval point accuracy: 0.718185
+2026-04-01 03:38:22,997 - Model - INFO - eval point avg class IoU: 0.496444
+2026-04-01 03:38:22,997 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.676 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:38:22,997 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:38:22,997 - Model - INFO - **** Epoch 169 (169/200) ****
+2026-04-01 03:39:06,627 - Model - INFO - Training mean loss: 0.391078
+2026-04-01 03:39:06,627 - Model - INFO - Training accuracy: 0.703975
+2026-04-01 03:39:06,627 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:39:08,548 - Model - INFO - eval mean loss: 0.429763
+2026-04-01 03:39:08,548 - Model - INFO - eval point accuracy: 0.719213
+2026-04-01 03:39:08,548 - Model - INFO - eval point avg class IoU: 0.496992
+2026-04-01 03:39:08,548 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.677 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:39:08,549 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:39:08,549 - Model - INFO - **** Epoch 170 (170/200) ****
+2026-04-01 03:39:52,249 - Model - INFO - Training mean loss: 0.390832
+2026-04-01 03:39:52,249 - Model - INFO - Training accuracy: 0.703879
+2026-04-01 03:39:52,249 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:39:54,177 - Model - INFO - eval mean loss: 0.424794
+2026-04-01 03:39:54,177 - Model - INFO - eval point accuracy: 0.708557
+2026-04-01 03:39:54,177 - Model - INFO - eval point avg class IoU: 0.488225
+2026-04-01 03:39:54,177 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.664 
+class wound_bed      IoU: 0.312 
+
+2026-04-01 03:39:54,177 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:39:54,177 - Model - INFO - **** Epoch 171 (171/200) ****
+2026-04-01 03:40:37,864 - Model - INFO - Training mean loss: 0.390829
+2026-04-01 03:40:37,864 - Model - INFO - Training accuracy: 0.703774
+2026-04-01 03:40:37,864 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:40:39,789 - Model - INFO - eval mean loss: 0.432201
+2026-04-01 03:40:39,789 - Model - INFO - eval point accuracy: 0.718074
+2026-04-01 03:40:39,789 - Model - INFO - eval point avg class IoU: 0.495591
+2026-04-01 03:40:39,789 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.676 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:40:39,789 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:40:39,789 - Model - INFO - **** Epoch 172 (172/200) ****
+2026-04-01 03:41:23,457 - Model - INFO - Training mean loss: 0.390925
+2026-04-01 03:41:23,457 - Model - INFO - Training accuracy: 0.703639
+2026-04-01 03:41:23,458 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:41:25,382 - Model - INFO - eval mean loss: 0.427390
+2026-04-01 03:41:25,382 - Model - INFO - eval point accuracy: 0.710419
+2026-04-01 03:41:25,382 - Model - INFO - eval point avg class IoU: 0.490050
+2026-04-01 03:41:25,382 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:41:25,382 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:41:25,382 - Model - INFO - **** Epoch 173 (173/200) ****
+2026-04-01 03:42:09,059 - Model - INFO - Training mean loss: 0.389684
+2026-04-01 03:42:09,059 - Model - INFO - Training accuracy: 0.703896
+2026-04-01 03:42:09,059 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:42:10,981 - Model - INFO - eval mean loss: 0.424746
+2026-04-01 03:42:10,981 - Model - INFO - eval point accuracy: 0.712596
+2026-04-01 03:42:10,981 - Model - INFO - eval point avg class IoU: 0.491794
+2026-04-01 03:42:10,981 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.669 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:42:10,981 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:42:10,981 - Model - INFO - **** Epoch 174 (174/200) ****
+2026-04-01 03:42:54,761 - Model - INFO - Training mean loss: 0.390561
+2026-04-01 03:42:54,761 - Model - INFO - Training accuracy: 0.703569
+2026-04-01 03:42:54,761 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:42:56,694 - Model - INFO - eval mean loss: 0.425547
+2026-04-01 03:42:56,694 - Model - INFO - eval point accuracy: 0.715866
+2026-04-01 03:42:56,694 - Model - INFO - eval point avg class IoU: 0.495206
+2026-04-01 03:42:56,694 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.672 
+class wound_bed      IoU: 0.318 
+
+2026-04-01 03:42:56,694 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:42:56,694 - Model - INFO - **** Epoch 175 (175/200) ****
+2026-04-01 03:43:40,393 - Model - INFO - Training mean loss: 0.391208
+2026-04-01 03:43:40,393 - Model - INFO - Training accuracy: 0.703485
+2026-04-01 03:43:40,393 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:43:42,301 - Model - INFO - eval mean loss: 0.422308
+2026-04-01 03:43:42,301 - Model - INFO - eval point accuracy: 0.716975
+2026-04-01 03:43:42,301 - Model - INFO - eval point avg class IoU: 0.495725
+2026-04-01 03:43:42,301 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.674 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:43:42,301 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:43:42,301 - Model - INFO - **** Epoch 176 (176/200) ****
+2026-04-01 03:44:26,067 - Model - INFO - Training mean loss: 0.390443
+2026-04-01 03:44:26,067 - Model - INFO - Training accuracy: 0.702559
+2026-04-01 03:44:26,067 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:44:28,001 - Model - INFO - eval mean loss: 0.425347
+2026-04-01 03:44:28,001 - Model - INFO - eval point accuracy: 0.712748
+2026-04-01 03:44:28,001 - Model - INFO - eval point avg class IoU: 0.492101
+2026-04-01 03:44:28,001 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.669 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:44:28,001 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:44:28,001 - Model - INFO - **** Epoch 177 (177/200) ****
+2026-04-01 03:45:11,750 - Model - INFO - Training mean loss: 0.391853
+2026-04-01 03:45:11,751 - Model - INFO - Training accuracy: 0.703116
+2026-04-01 03:45:11,751 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:45:13,692 - Model - INFO - eval mean loss: 0.429042
+2026-04-01 03:45:13,692 - Model - INFO - eval point accuracy: 0.714966
+2026-04-01 03:45:13,692 - Model - INFO - eval point avg class IoU: 0.494146
+2026-04-01 03:45:13,692 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.672 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:45:13,692 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:45:13,692 - Model - INFO - **** Epoch 178 (178/200) ****
+2026-04-01 03:45:57,332 - Model - INFO - Training mean loss: 0.390293
+2026-04-01 03:45:57,332 - Model - INFO - Training accuracy: 0.704028
+2026-04-01 03:45:57,333 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:45:59,256 - Model - INFO - eval mean loss: 0.426300
+2026-04-01 03:45:59,256 - Model - INFO - eval point accuracy: 0.716451
+2026-04-01 03:45:59,256 - Model - INFO - eval point avg class IoU: 0.494497
+2026-04-01 03:45:59,256 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.674 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:45:59,256 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:45:59,256 - Model - INFO - **** Epoch 179 (179/200) ****
+2026-04-01 03:46:42,953 - Model - INFO - Training mean loss: 0.391921
+2026-04-01 03:46:42,954 - Model - INFO - Training accuracy: 0.703077
+2026-04-01 03:46:42,954 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:46:44,897 - Model - INFO - eval mean loss: 0.427064
+2026-04-01 03:46:44,897 - Model - INFO - eval point accuracy: 0.718567
+2026-04-01 03:46:44,897 - Model - INFO - eval point avg class IoU: 0.496719
+2026-04-01 03:46:44,897 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.676 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:46:44,897 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:46:44,897 - Model - INFO - **** Epoch 180 (180/200) ****
+2026-04-01 03:47:29,291 - Model - INFO - Training mean loss: 0.390878
+2026-04-01 03:47:29,291 - Model - INFO - Training accuracy: 0.703720
+2026-04-01 03:47:29,291 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:47:31,228 - Model - INFO - eval mean loss: 0.427421
+2026-04-01 03:47:31,228 - Model - INFO - eval point accuracy: 0.720978
+2026-04-01 03:47:31,228 - Model - INFO - eval point avg class IoU: 0.498907
+2026-04-01 03:47:31,228 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.679 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 03:47:31,228 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:47:31,228 - Model - INFO - **** Epoch 181 (181/200) ****
+2026-04-01 03:48:14,990 - Model - INFO - Training mean loss: 0.390573
+2026-04-01 03:48:14,990 - Model - INFO - Training accuracy: 0.703224
+2026-04-01 03:48:14,990 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:48:16,934 - Model - INFO - eval mean loss: 0.432578
+2026-04-01 03:48:16,934 - Model - INFO - eval point accuracy: 0.724380
+2026-04-01 03:48:16,934 - Model - INFO - eval point avg class IoU: 0.502016
+2026-04-01 03:48:16,934 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.683 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 03:48:16,934 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:48:16,934 - Model - INFO - **** Epoch 182 (182/200) ****
+2026-04-01 03:49:00,713 - Model - INFO - Training mean loss: 0.390655
+2026-04-01 03:49:00,713 - Model - INFO - Training accuracy: 0.702980
+2026-04-01 03:49:00,714 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:49:02,620 - Model - INFO - eval mean loss: 0.420042
+2026-04-01 03:49:02,621 - Model - INFO - eval point accuracy: 0.707647
+2026-04-01 03:49:02,621 - Model - INFO - eval point avg class IoU: 0.487859
+2026-04-01 03:49:02,621 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.663 
+class wound_bed      IoU: 0.313 
+
+2026-04-01 03:49:02,621 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:49:02,621 - Model - INFO - **** Epoch 183 (183/200) ****
+2026-04-01 03:49:46,346 - Model - INFO - Training mean loss: 0.390286
+2026-04-01 03:49:46,346 - Model - INFO - Training accuracy: 0.703637
+2026-04-01 03:49:46,346 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:49:48,281 - Model - INFO - eval mean loss: 0.429235
+2026-04-01 03:49:48,281 - Model - INFO - eval point accuracy: 0.711858
+2026-04-01 03:49:48,281 - Model - INFO - eval point avg class IoU: 0.490336
+2026-04-01 03:49:48,282 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.669 
+class wound_bed      IoU: 0.312 
+
+2026-04-01 03:49:48,282 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:49:48,282 - Model - INFO - **** Epoch 184 (184/200) ****
+2026-04-01 03:50:32,093 - Model - INFO - Training mean loss: 0.390488
+2026-04-01 03:50:32,093 - Model - INFO - Training accuracy: 0.704211
+2026-04-01 03:50:32,094 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:50:34,032 - Model - INFO - eval mean loss: 0.427251
+2026-04-01 03:50:34,032 - Model - INFO - eval point accuracy: 0.709386
+2026-04-01 03:50:34,032 - Model - INFO - eval point avg class IoU: 0.488142
+2026-04-01 03:50:34,032 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.311 
+
+2026-04-01 03:50:34,032 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:50:34,032 - Model - INFO - **** Epoch 185 (185/200) ****
+2026-04-01 03:51:17,757 - Model - INFO - Training mean loss: 0.390706
+2026-04-01 03:51:17,757 - Model - INFO - Training accuracy: 0.704277
+2026-04-01 03:51:17,757 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:51:19,681 - Model - INFO - eval mean loss: 0.434423
+2026-04-01 03:51:19,681 - Model - INFO - eval point accuracy: 0.725576
+2026-04-01 03:51:19,681 - Model - INFO - eval point avg class IoU: 0.502433
+2026-04-01 03:51:19,681 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.685 
+class wound_bed      IoU: 0.320 
+
+2026-04-01 03:51:19,681 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:51:19,681 - Model - INFO - **** Epoch 186 (186/200) ****
+2026-04-01 03:52:03,335 - Model - INFO - Training mean loss: 0.390654
+2026-04-01 03:52:03,335 - Model - INFO - Training accuracy: 0.703547
+2026-04-01 03:52:03,335 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:52:05,273 - Model - INFO - eval mean loss: 0.423937
+2026-04-01 03:52:05,273 - Model - INFO - eval point accuracy: 0.710602
+2026-04-01 03:52:05,273 - Model - INFO - eval point avg class IoU: 0.490639
+2026-04-01 03:52:05,273 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:52:05,273 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:52:05,273 - Model - INFO - **** Epoch 187 (187/200) ****
+2026-04-01 03:52:48,957 - Model - INFO - Training mean loss: 0.389978
+2026-04-01 03:52:48,957 - Model - INFO - Training accuracy: 0.704118
+2026-04-01 03:52:48,957 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:52:50,894 - Model - INFO - eval mean loss: 0.428647
+2026-04-01 03:52:50,894 - Model - INFO - eval point accuracy: 0.718831
+2026-04-01 03:52:50,894 - Model - INFO - eval point avg class IoU: 0.497237
+2026-04-01 03:52:50,894 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.676 
+class wound_bed      IoU: 0.318 
+
+2026-04-01 03:52:50,894 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:52:50,894 - Model - INFO - **** Epoch 188 (188/200) ****
+2026-04-01 03:53:34,560 - Model - INFO - Training mean loss: 0.390050
+2026-04-01 03:53:34,560 - Model - INFO - Training accuracy: 0.704815
+2026-04-01 03:53:34,560 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:53:36,501 - Model - INFO - eval mean loss: 0.426645
+2026-04-01 03:53:36,501 - Model - INFO - eval point accuracy: 0.719482
+2026-04-01 03:53:36,501 - Model - INFO - eval point avg class IoU: 0.498017
+2026-04-01 03:53:36,501 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.677 
+class wound_bed      IoU: 0.319 
+
+2026-04-01 03:53:36,501 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:53:36,501 - Model - INFO - **** Epoch 189 (189/200) ****
+2026-04-01 03:54:20,328 - Model - INFO - Training mean loss: 0.390294
+2026-04-01 03:54:20,328 - Model - INFO - Training accuracy: 0.704130
+2026-04-01 03:54:20,328 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:54:22,237 - Model - INFO - eval mean loss: 0.424480
+2026-04-01 03:54:22,237 - Model - INFO - eval point accuracy: 0.715963
+2026-04-01 03:54:22,237 - Model - INFO - eval point avg class IoU: 0.495360
+2026-04-01 03:54:22,237 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.673 
+class wound_bed      IoU: 0.318 
+
+2026-04-01 03:54:22,237 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:54:22,237 - Model - INFO - **** Epoch 190 (190/200) ****
+2026-04-01 03:55:06,109 - Model - INFO - Training mean loss: 0.390277
+2026-04-01 03:55:06,110 - Model - INFO - Training accuracy: 0.703125
+2026-04-01 03:55:06,110 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:55:08,039 - Model - INFO - eval mean loss: 0.423827
+2026-04-01 03:55:08,039 - Model - INFO - eval point accuracy: 0.710948
+2026-04-01 03:55:08,039 - Model - INFO - eval point avg class IoU: 0.490441
+2026-04-01 03:55:08,039 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.667 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 03:55:08,039 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:55:08,039 - Model - INFO - **** Epoch 191 (191/200) ****
+2026-04-01 03:55:51,701 - Model - INFO - Training mean loss: 0.390472
+2026-04-01 03:55:51,701 - Model - INFO - Training accuracy: 0.703984
+2026-04-01 03:55:51,701 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:55:53,630 - Model - INFO - eval mean loss: 0.425602
+2026-04-01 03:55:53,630 - Model - INFO - eval point accuracy: 0.712077
+2026-04-01 03:55:53,630 - Model - INFO - eval point avg class IoU: 0.491520
+2026-04-01 03:55:53,630 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.668 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:55:53,630 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:55:53,630 - Model - INFO - **** Epoch 192 (192/200) ****
+2026-04-01 03:56:37,566 - Model - INFO - Training mean loss: 0.391073
+2026-04-01 03:56:37,566 - Model - INFO - Training accuracy: 0.703823
+2026-04-01 03:56:37,567 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:56:39,499 - Model - INFO - eval mean loss: 0.428263
+2026-04-01 03:56:39,499 - Model - INFO - eval point accuracy: 0.719264
+2026-04-01 03:56:39,499 - Model - INFO - eval point avg class IoU: 0.497179
+2026-04-01 03:56:39,499 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.677 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 03:56:39,499 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:56:39,499 - Model - INFO - **** Epoch 193 (193/200) ****
+2026-04-01 03:57:23,247 - Model - INFO - Training mean loss: 0.390366
+2026-04-01 03:57:23,247 - Model - INFO - Training accuracy: 0.703814
+2026-04-01 03:57:23,248 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:57:25,177 - Model - INFO - eval mean loss: 0.426087
+2026-04-01 03:57:25,177 - Model - INFO - eval point accuracy: 0.713404
+2026-04-01 03:57:25,177 - Model - INFO - eval point avg class IoU: 0.492544
+2026-04-01 03:57:25,178 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.670 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:57:25,178 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:57:25,178 - Model - INFO - **** Epoch 194 (194/200) ****
+2026-04-01 03:58:09,001 - Model - INFO - Training mean loss: 0.390537
+2026-04-01 03:58:09,001 - Model - INFO - Training accuracy: 0.703624
+2026-04-01 03:58:09,001 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:58:10,932 - Model - INFO - eval mean loss: 0.426511
+2026-04-01 03:58:10,932 - Model - INFO - eval point accuracy: 0.715663
+2026-04-01 03:58:10,932 - Model - INFO - eval point avg class IoU: 0.493845
+2026-04-01 03:58:10,932 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.673 
+class wound_bed      IoU: 0.315 
+
+2026-04-01 03:58:10,932 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:58:10,932 - Model - INFO - **** Epoch 195 (195/200) ****
+2026-04-01 03:58:54,568 - Model - INFO - Training mean loss: 0.390601
+2026-04-01 03:58:54,568 - Model - INFO - Training accuracy: 0.704065
+2026-04-01 03:58:54,568 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:58:56,471 - Model - INFO - eval mean loss: 0.435604
+2026-04-01 03:58:56,471 - Model - INFO - eval point accuracy: 0.728704
+2026-04-01 03:58:56,471 - Model - INFO - eval point avg class IoU: 0.504945
+2026-04-01 03:58:56,471 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.689 
+class wound_bed      IoU: 0.321 
+
+2026-04-01 03:58:56,471 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:58:56,471 - Model - INFO - **** Epoch 196 (196/200) ****
+2026-04-01 03:59:40,134 - Model - INFO - Training mean loss: 0.390511
+2026-04-01 03:59:40,135 - Model - INFO - Training accuracy: 0.703628
+2026-04-01 03:59:40,135 - Model - INFO - ---- EVALUATION ----
+2026-04-01 03:59:42,073 - Model - INFO - eval mean loss: 0.430820
+2026-04-01 03:59:42,073 - Model - INFO - eval point accuracy: 0.715083
+2026-04-01 03:59:42,073 - Model - INFO - eval point avg class IoU: 0.493770
+2026-04-01 03:59:42,073 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.672 
+class wound_bed      IoU: 0.316 
+
+2026-04-01 03:59:42,073 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 03:59:42,073 - Model - INFO - **** Epoch 197 (197/200) ****
+2026-04-01 04:00:25,711 - Model - INFO - Training mean loss: 0.390605
+2026-04-01 04:00:25,711 - Model - INFO - Training accuracy: 0.703752
+2026-04-01 04:00:25,711 - Model - INFO - ---- EVALUATION ----
+2026-04-01 04:00:27,640 - Model - INFO - eval mean loss: 0.429749
+2026-04-01 04:00:27,640 - Model - INFO - eval point accuracy: 0.718384
+2026-04-01 04:00:27,640 - Model - INFO - eval point avg class IoU: 0.496638
+2026-04-01 04:00:27,640 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.676 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 04:00:27,640 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 04:00:27,640 - Model - INFO - **** Epoch 198 (198/200) ****
+2026-04-01 04:01:11,259 - Model - INFO - Training mean loss: 0.390574
+2026-04-01 04:01:11,259 - Model - INFO - Training accuracy: 0.702972
+2026-04-01 04:01:11,259 - Model - INFO - ---- EVALUATION ----
+2026-04-01 04:01:13,179 - Model - INFO - eval mean loss: 0.422487
+2026-04-01 04:01:13,179 - Model - INFO - eval point accuracy: 0.709915
+2026-04-01 04:01:13,179 - Model - INFO - eval point avg class IoU: 0.489572
+2026-04-01 04:01:13,179 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.666 
+class wound_bed      IoU: 0.314 
+
+2026-04-01 04:01:13,179 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 04:01:13,179 - Model - INFO - **** Epoch 199 (199/200) ****
+2026-04-01 04:01:56,785 - Model - INFO - Training mean loss: 0.391120
+2026-04-01 04:01:56,785 - Model - INFO - Training accuracy: 0.704004
+2026-04-01 04:01:56,785 - Model - INFO - ---- EVALUATION ----
+2026-04-01 04:01:58,713 - Model - INFO - eval mean loss: 0.431673
+2026-04-01 04:01:58,713 - Model - INFO - eval point accuracy: 0.713903
+2026-04-01 04:01:58,713 - Model - INFO - eval point avg class IoU: 0.492152
+2026-04-01 04:01:58,713 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.671 
+class wound_bed      IoU: 0.313 
+
+2026-04-01 04:01:58,713 - Model - INFO - Best mIoU: 0.548615
+2026-04-01 04:01:58,713 - Model - INFO - **** Epoch 200 (200/200) ****
+2026-04-01 04:02:42,348 - Model - INFO - Training mean loss: 0.390416
+2026-04-01 04:02:42,348 - Model - INFO - Training accuracy: 0.703313
+2026-04-01 04:02:42,349 - Model - INFO - ---- EVALUATION ----
+2026-04-01 04:02:44,267 - Model - INFO - eval mean loss: 0.428426
+2026-04-01 04:02:44,267 - Model - INFO - eval point accuracy: 0.718277
+2026-04-01 04:02:44,267 - Model - INFO - eval point avg class IoU: 0.496562
+2026-04-01 04:02:44,267 - Model - INFO - ------- IoU --------
+class healthy_skin   IoU: 0.676 
+class wound_bed      IoU: 0.317 
+
+2026-04-01 04:02:44,267 - Model - INFO - Best mIoU: 0.548615

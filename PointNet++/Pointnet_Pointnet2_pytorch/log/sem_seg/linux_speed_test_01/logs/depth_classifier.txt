@@ -3,3 +3,8 @@
 2026-03-30 19:51:05,319 - Model - INFO - The number of training data is: 1809
 2026-03-30 19:51:05,319 - Model - INFO - The number of test data is: 53
 2026-03-30 19:51:06,737 - Model - INFO - **** Epoch 1 (1/200) ****
+2026-03-30 20:05:50,549 - Model - INFO - PARAMETER ...
+2026-03-30 20:05:50,549 - Model - INFO - Namespace(model='depth_classifier', batch_size=8, epoch=200, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='linux_speed_test_01', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, json_path='../dict_wounds.json', data_dir='../sorted_data')
+2026-03-30 20:05:50,558 - Model - INFO - The number of training data is: 1809
+2026-03-30 20:05:50,558 - Model - INFO - The number of test data is: 53
+2026-03-30 20:05:51,517 - Model - INFO - **** Epoch 1 (1/200) ****

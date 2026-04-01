@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from models.geometry_utils import compute_differential_geometry, knn
 
 
-def get_graph_feature(x, k=16, idx=None):
+def get_graph_feature(x, k=32, idx=None):
     # [Unchanged from your original code]
     B, C, N = x.size()
     if idx is None:
@@ -23,7 +23,7 @@ def get_graph_feature(x, k=16, idx=None):
 
 
 class WoundSegmentationGNN(nn.Module):
-    def __init__(self, k=16, num_classes=2):
+    def __init__(self, k=32, num_classes=2):
         super(WoundSegmentationGNN, self).__init__()
         self.k = k
 

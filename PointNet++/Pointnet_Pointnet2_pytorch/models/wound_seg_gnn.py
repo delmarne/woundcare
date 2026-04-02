@@ -27,34 +27,30 @@ class WoundSegmentationGNN(nn.Module):
         super(WoundSegmentationGNN, self).__init__()
         self.k = k
 
-        # Saliency Seeder: Learns to detect geometric outliers
-        # Input: 2 (Shape Index, Curvedness) -> Output: 1 (Soft Saliency Map)
+        # Saliency Seeder: Now takes 5 geometry features
         self.saliency_seeder = nn.Sequential(
-            nn.Conv1d(2, 16, kernel_size=1, bias=False),
+            nn.Conv1d(5, 16, kernel_size=1, bias=False),
             nn.BatchNorm1d(16),
             nn.LeakyReLU(negative_slope=0.2),
             nn.Conv1d(16, 1, kernel_size=1),
-            nn.Sigmoid()  # Bounds the saliency score between 0 and 1
+            nn.Sigmoid()
         )
 
-        # Input features: 3 (XYZ) + 2 (Geom) + 1 (Saliency) = 6
-        in_channels = 6
+        # Input features: 3 (XYZ) + 5 (Geom) + 1 (Saliency) = 9
+        in_channels = 9
 
-        # EdgeConv Layer 1
         self.conv1 = nn.Sequential(
             nn.Conv2d(in_channels * 2, 64, kernel_size=1, bias=False),
             nn.BatchNorm2d(64),
             nn.LeakyReLU(negative_slope=0.2)
         )
 
-        # EdgeConv Layer 2
         self.conv2 = nn.Sequential(
             nn.Conv2d(64 * 2, 64, kernel_size=1, bias=False),
             nn.BatchNorm2d(64),
             nn.LeakyReLU(negative_slope=0.2)
         )
 
-        # Point-wise classification head
         self.classifier = nn.Sequential(
             nn.Conv1d(128, 256, kernel_size=1, bias=False),
             nn.BatchNorm1d(256),

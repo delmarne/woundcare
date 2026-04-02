@@ -106,10 +106,10 @@ def main(args):
     # Define class weights to combat severe class imbalance
     # Class 0: healthy_skin (weight = 1.0)
     # Class 1: wound_bed (weight = 10.0) -> Adjust this up or down based on results
-    class_weights = torch.tensor([1.0, 7.0]).float().cuda()
+    class_weights = torch.tensor([1.0, 5.0]).float().cuda()
     criterion = nn.CrossEntropyLoss(weight=class_weights).cuda()
     shape_prior_criterion = ClinicalShapePriorLoss(target_aspect_ratio_max=3.0, target_depth_variance_max=0.1).cuda()
-    alpha = 0.05  # Weight of the shape prior (tune this between 0.01 and 0.5)
+    alpha = 0.01  # Weight of the shape prior (tune this between 0.01 and 0.5)
     classifier.apply(inplace_relu)
 
     start_epoch = 0

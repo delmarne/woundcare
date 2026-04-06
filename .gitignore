@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Machine Learning Data & Weights
 **/data/
 **/datasets/
@@ -26,5 +27,5 @@ venv/
 **/DGCNN/*/data/
 **/DGCNN/*/checkpoints/
 **/*.h5
-**/*.pth
-**/*.npy
+
+pointnet2_pytorch_env/

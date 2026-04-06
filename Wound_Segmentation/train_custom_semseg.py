@@ -2,6 +2,7 @@ import argparse
 import os
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 import datetime
 import logging
 from pathlib import Path
@@ -18,6 +19,7 @@ sys.path.append(os.path.join(ROOT_DIR, 'models'))
 
 # Import your custom segmentation dataloader
 from data_utils.Wound_Data_Loader_RHL import WoundSegDataset
+from shape_prior_loss import ClinicalShapePriorLoss
 
 classes = ['healthy_skin', 'wound_bed']
 class2label = {cls: i for i, cls in enumerate(classes)}
@@ -49,6 +51,18 @@ def parse_args():
 
     return parser.parse_args()
 
+class FocalLoss(nn.Module):
+    def __init__(self, alpha=[1.0, 5.0], gamma=2.0):
+        super(FocalLoss, self).__init__()
+        self.alpha = torch.tensor(alpha).cuda()
+        self.gamma = gamma
+
+    def forward(self, inputs, targets):
+        # inputs: [B*N, C], targets: [B*N]
+        ce_loss = F.cross_entropy(inputs, targets, reduction='none', weight=self.alpha)
+        pt = torch.exp(-ce_loss)
+        focal_loss = ((1 - pt) ** self.gamma) * ce_loss
+        return focal_loss.mean()
 
 def main(args):
     def log_string(str):
@@ -102,7 +116,13 @@ def main(args):
     '''MODEL LOADING'''
     MODEL = importlib.import_module(args.model)
     classifier = MODEL.get_model(NUM_CLASSES).cuda()
-    criterion = nn.CrossEntropyLoss().cuda() # Using standard CE Loss for Segmentation
+    # Define class weights to combat severe class imbalance
+    # Class 0: healthy_skin (weight = 1.0)
+    # Class 1: wound_bed (weight = 10.0) -> Adjust this up or down based on results
+    class_weights = torch.tensor([1.0, 5.0]).float().cuda()
+    criterion = FocalLoss(alpha=[1.0, 5.0], gamma=2.0)
+    shape_prior_criterion = ClinicalShapePriorLoss(target_aspect_ratio_max=3.0, target_depth_variance_max=0.1).cuda()
+    alpha = 0.01  # Weight of the shape prior (tune this between 0.01 and 0.5)
     classifier.apply(inplace_relu)
 
     start_epoch = 0
@@ -151,16 +171,25 @@ def main(args):
             optimizer.zero_grad()
 
             points, target = points.float().cuda(), target.long().cuda()
-            points = points.transpose(2, 1) # [B, 3, N]
+            points = points.transpose(2, 1)  # [B, 3, N]
 
             # Forward pass through GNN
-            seg_pred = classifier(points) # Returns [B, 2, N]
-            
+            seg_pred = classifier(points)  # Returns [B, 2, N]
+
+            # --- CALCULATE LOSSES ---
+
+            # 1. Standard Segmentation Loss (CrossEntropy)
             # Reshape for CrossEntropyLoss [B*N, 2] vs [B*N]
-            seg_pred = seg_pred.transpose(2, 1).contiguous().view(-1, NUM_CLASSES)
-            target = target.view(-1)
-            
-            loss = criterion(seg_pred, target)
+            seg_pred_reshaped = seg_pred.transpose(2, 1).contiguous().view(-1, NUM_CLASSES)
+            target_flat = target.view(-1)
+            loss_ce = criterion(seg_pred_reshaped, target_flat)
+
+            # 2. Clinical Shape Prior Loss
+            # Pass the UNRESHAPED logits [B, 2, N] and the XYZ points [B, 3, N]
+            loss_prior = shape_prior_criterion(seg_pred, points[:, :3, :])
+
+            # 3. Total Loss
+            loss = loss_ce + (alpha * loss_prior)
             loss.backward()
             optimizer.step()
 

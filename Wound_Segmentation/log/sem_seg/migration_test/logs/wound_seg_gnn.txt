@@ -130,3 +130,8 @@ class healthy_skin   IoU: 0.868
 class wound_bed      IoU: 0.230 
 
 2026-04-06 11:18:13,918 - Model - INFO - Best mIoU: 0.586051
+2026-04-06 13:41:50,146 - Model - INFO - PARAMETER ...
+2026-04-06 13:41:50,147 - Model - INFO - Namespace(model='wound_seg_gnn', batch_size=8, epoch=10, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='migration_test', decay_rate=0.0001, npoint=8192, step_size=10, lr_decay=0.7, json_path='D:\\MD_Implementations_copy\\Wound_Segmentation\\dict_wounds.json', data_dir='D:\\MD_Implementations_copy\\PointNet++\\sorted_data')
+2026-04-06 13:41:50,175 - Model - INFO - The number of training data is: 1809
+2026-04-06 13:41:50,175 - Model - INFO - The number of test data is: 53
+2026-04-06 13:41:51,420 - Model - INFO - **** Epoch 1 (1/10) ****

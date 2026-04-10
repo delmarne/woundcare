@@ -458,7 +458,7 @@ def apply_wound_boundary_detection(data_dir, k_curvature=30, k_graph=16):
 # ==============================================================================
 
 if __name__ == "__main__":
-    DATA_DIR = "D:/MD_Implementations/PointNet++/sorted_data"
+    DATA_DIR = "D:/MD_Implementations/sorted_data"
     apply_wound_boundary_detection(
         DATA_DIR,
         k_curvature=30,   # neighbours for quadratic surface fit

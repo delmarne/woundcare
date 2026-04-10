@@ -360,12 +360,14 @@ def apply_wound_boundary_detection(data_dir, k_curvature=30, k_graph=16):
     for split in splits:
         split_dir = os.path.join(data_dir, split)
         if not os.path.exists(split_dir):
+            print("path doesn't exist")
             continue
 
         print(f"\nProcessing {split} split...")
         for class_name in os.listdir(split_dir):
             class_dir = os.path.join(split_dir, class_name)
             if not os.path.isdir(class_dir):
+                print("path is not dir")
                 continue
 
             files = [f for f in os.listdir(class_dir) if f.endswith('.h5')]
@@ -373,8 +375,9 @@ def apply_wound_boundary_detection(data_dir, k_curvature=30, k_graph=16):
                 filepath = os.path.join(class_dir, filename)
                 df       = pd.read_hdf(filepath, 'df')
 
-                if 'mask' in df.columns:
-                    continue
+                # if 'mask' in df.columns:
+                #     print("Already has masks")
+                #     continue
 
                 # ----------------------------------------------------------
                 # 1. Normalise
@@ -458,7 +461,7 @@ def apply_wound_boundary_detection(data_dir, k_curvature=30, k_graph=16):
 # ==============================================================================
 
 if __name__ == "__main__":
-    DATA_DIR = "D:/MD_Implementations/sorted_data"
+    DATA_DIR = "D:/MD_Implementations_copy/sorted_data"
     apply_wound_boundary_detection(
         DATA_DIR,
         k_curvature=30,   # neighbours for quadratic surface fit
